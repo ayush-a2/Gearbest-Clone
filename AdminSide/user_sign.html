@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/user_sign.css">
+</head>
+
+<body>
+  <div class="center">
+    <button id="show-login">Login</button>
+
+  </div>
+  <div class="popup">
+    <div class="close-btn">&times;</div>
+    <div class="form">
+      <h2> Log in</h2>
+      <p>Sign in or create an account to enjoy <b> FREE standard shipping </b>on all orders.</p>
+      <div class="form-element">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter email" required>
+      </div>
+      <div class="form-element">
+        <label for="Password">Password</label>
+        <input type="password" id="password" placeholder="Enter password" required>
+      </div>
+      <div class="form-element">
+
+        <input type="checkbox" id="remember-me">
+        <label for="remember-me">Remember me</label>
+      </div>
+      <div class="form-element">
+
+        <button id="signData">Sign in</button>
+
+      </div>
+      <div class="form-element">
+        <a id="forgot" href="#">Forgot Password</a>
+
+      </div>
+      <div class="form-element">
+        <h3>New to Gearbest?</h3>
+        <button onclick="openForm()"> Create Account</button>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="form-popup" id="myForm">
+    <div class="close">&times;</div>
+    <!-- <div class="form">  -->
+    <form action="" class="form-container">
+
+      <div class="form-element">
+        <h2>Create Account</h2>
+
+        <img src="https://www.canva.com/design/DAFUppuZMA8/Oqp8wkct19rasUb2lJjarA/view?amp&amp&amp&amp&amp&amp&amp&amp&utm_source=integration_slack&utm_medium=referral&utm_content=T049VKU2U5T&utm_campaign=unfurl_document-url_open-in-canva_hyperlink&utm_term=578c8360-9588-4f69-b016-8c3058f886f3" alt="" srcset="">
+        <p>Join the Beauty Insider loyalty program. Earn points, get <b> FREE standard shipping, </b> redeem rewards,
+          and more. </p>
+        <!-- <label for=""><b>Name</b></label> -->
+        <input type="text" placeholder="First Name" required id="firstname">
+        <input type="text" placeholder="Last Name (optional)" required id="lastname">
+
+      </div>
+
+      <div class="form-element">
+
+
+        <!--     
+      <label for="email"><b>Email</b></label> -->
+        <input type="email" placeholder="Enter Email"  id="input_email" required>
+      </div>
+      <div class="form-element">
+
+        <input type="text" placeholder="Phone Number" id="number">
+
+      </div>
+
+      <div class="form-element">
+        <!-- <label for="psw"><b>Password</b></label> -->
+        <input type="password" placeholder="Enter Password" name="psw" required id="input_password">
+
+      </div>
+      
+      <div class="form-element">
+
+        <input type="checkbox" id="remember-me">
+        <label for="remember-me">Remember me</label><br>
+
+
+      </div>
+      <div class="form-element">
+
+        <button id="createData" type="submit" class="btn">Join Now</button>
+
+      </div>
+      <div class="form-element">
+        <p>By clicking “Join Now” you acknowledge that you are a U.S. or Canada resident and (1) have read Sephora’s <a
+            href=""> Privacy Policy</a> and <a href=" ">Notice of Financial Incentive</a>, (2), agree to <a
+            href="">Terms of Use</a>, <a href="">Beauty Insider Terms</a>,
+          and to automatically
+
+          receive Beauty Insider offers and notifications via email.
+
+          Sephora uses Google ReCaptcha and by registering, users are subject to Google’s <a href="">privacy policy &
+            terms</a>.</p>
+
+
+      </div>
+  </div>
+
+  </form>
+
+</body>
+
+</html>
+<script src="./scripts/user_sign.js"></script>
+
+
+
+<!-- </div> -->
