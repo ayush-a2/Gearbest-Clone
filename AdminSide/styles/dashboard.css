@@ -1,0 +1,26 @@
+#full{
+    border: 1px solid black;
+    width: 100%;
+    
+display: flex;
+gap: 20px;
+}
+#left{ 
+     border: 1px solid black;
+    width: 30%;
+    height: 900px;
+}
+#right{ 
+    border: 1px solid black;
+   width: 67%;
+   height: 900px;
+}
+#right{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#right img{
+    display: block;
+    width: 200px;
+    margin: auto;
+}

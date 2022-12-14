@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#collection {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center
+}
+
+;
+
+#collection>div {
+    display: block;
+    width: 100%;
+
+}
+
+.perCardDiv {
+    border-radius: 5px;
+    transition: transform .5s;
+}
+
+.perCardDiv:hover {
+    border-radius: 5px;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.02)
+}
+
+.perCardDiv>img {
+    border-radius: 5px;
+}
+
+
+#superdeals {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center
+}
+#superdeals>div {
+    display: block;
+    width: 100%;
+
+}
+
+.rating_card{
+    display: block;
+    background-color: green;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.orderButton{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.orderButton>button{
+    border: 3px solid #000000;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: larger;
+    transition: transform .5s;
+
+}
+
+.orderButton>button:hover{
+    background-color: transparent;
+    border: 3px solid #000000;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(0.8)
+}
+
+.priceDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
