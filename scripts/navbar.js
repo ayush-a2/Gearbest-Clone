@@ -1,3 +1,6 @@
+let search_content=getById("search_content");
+
+
 let home_page = () => {
   // window.location.href=""
   console.log("Hii");
@@ -32,7 +35,7 @@ function debounce(func, delay) {
   }, delay);
 }
 
-let getById = (tag) => {
+function getById(tag){
   return document.getElementById(tag);
 };
 
@@ -59,7 +62,15 @@ window.addEventListener("load", function () {
   serch_inbox.oninput = () => {
     debounce(serch_inbox_fun, 1000);
     // serch_inbox_fun();
+    
   };
+  serch_inbox.onfocus=()=>{
+    search_content.style.display="block";
+  }
+  serch_inbox.onblur=()=>{
+    search_content.style.display="none";
+  }
+  
 });
 /*
 logo_click
