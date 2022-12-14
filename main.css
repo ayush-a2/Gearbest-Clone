@@ -21,6 +21,7 @@ body {
 .perCardDiv {
     border-radius: 5px;
     transition: transform .5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .perCardDiv:hover {
