@@ -1,0 +1,626 @@
+{
+  "posts": [
+    {
+      "name": "360 LED Corridor Sill Light",
+      "price": "4,999",
+      
+      "discount": "72",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MjU4L0JsdWVfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "category": "home&living",
+      "subcategory": "Home-decore",
+      "id": 1,
+      "stars":"4.5/5"
+    },
+    {
+      "name": "3D Dragon LED Night Lamp",
+      "price": "6,999",
+      "discount": "65",
+      "stars": "4.5/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MjU5L0JsdWVfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "category": "home&living",
+      "subcategory": "Home-decore",
+      "id": 2
+    },
+    {
+      "name": "American Retro Motorcyle",
+      "price": "8,999",
+      "discount": "64",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyNDc5L0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "home&living",
+      "subcategory": "Home-decore",
+      "id": 3
+    },
+    {
+      "name": "Butterfly Girl Tray",
+      "price": "4,999",
+      "discount": "62",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyMTY4L0dyZWVuX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "home&living",
+      "subcategory": "Home-decore",
+      "id": 4
+    },
+    {
+      "name": "Pineapple Shaped Statue",
+      "price": "5,999",
+      "discount": "70",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxOTAzL0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "home&living",
+      "subcategory": "Home-decore",
+      "id": 5
+    },
+    {
+      "name": "Fierce Warrior Horse",
+      "price": "12,999",
+      "discount": "68",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxOTEwL011bHRpfmNvbG9yX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "home&living",
+      "subcategory": "Home-decore",
+      "id": 6
+    },
+    {
+      "name": "Metal Photo Frame",
+      "price": "3,999",
+      "discount": "73",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyMTE1L0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "home&living",
+      "subcategory": "Home-decore",
+      "id": 7
+    },
+    {
+      "name": "Astronaut Pen Holder",
+      "price": "2,999",
+      "discount": "73",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyMTE2L0dvbGRfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "category": "home&living",
+      "subcategory": "Home-decore",
+      "id": 8
+    },
+    {
+      "name": "Nordic dog ornament",
+      "price": "45000",
+      "discount": "53",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyMTExL0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "home&living",
+      "subcategory": "Home-decore",
+      "id": 9
+    },
+    {
+      "name": "Women Hena Trend Begie Ballet Flats",
+      "price": "4999",
+      "discount": "36",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1Mjk0L0JlaWdlXzM2XzhfY2Fwb25lfmhhbmF+dHJlbmR+d29tZW5+YmVpZ2V+YmFsbGV0fmZ+ZDk1fjkxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "women",
+      "subcategory": "Ballet-Flats",
+      "id": 10
+    },
+    {
+      "name": "Women Hana Trend Green Ballets",
+      "price": "3,999",
+      "discount": "27",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1MzY4L09yYW5nZV8zNl8yX2NhcG9uZX5oYW5hfnRyZW5kfndvbWVufm9yYW5nZX5iYWxsZXR+fjZiNWQxMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "category": "women",
+      "subcategory": "Ballet-Flats",
+      "id": 11
+    },
+    {
+      "name": "Women Hana Trend Powder Ballet Flats",
+      "price": "3,999",
+      "discount": "33",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1MjcyL0JsYWNrXzM2XzFfY2Fwb25lfmhhbmF+dHJlbmR+d29tZW5+YmxhY2t+YmFsbGV0fmZ+NmRkNGYxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "women",
+      "subcategory": "Ballet-Flats",
+      "id": 12
+    },
+    {
+      "name": "Women Hana Trend Black Ballet Flats",
+      "price": "4,999",
+      "discount": "25",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1Mjk1L0JsYWNrXzM2XzdfY2Fwb25lfmhhbmF+dHJlbmR+d29tZW5+YmxhY2t+YmFsbGV0fmZ+OWQ1OGYxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "women",
+      "subcategory": "Ballet-Flats",
+      "id": 13
+    },
+    {
+      "name": "Women Hana Trend Ballet Flats",
+      "price": "3,999",
+      "discount": "35",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1MjAzL1llbGxvd18zNl8yX2NhcG9uZX5oYW5hfnRyZW5kfndvbWVufnllbGxvd35iYWxsZXR+fjYyZmNkNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "category": "women",
+      "subcategory": "Ballet-Flats",
+      "id": 14
+    },
+    {
+      "name": "Women Hana Trend Multicolored Ballet Flats",
+      "price": "3,999",
+      "discount": "27",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1MjA2L011bHRpY29sb3JlZF8zNl8xX2NhcG9uZX5oYW5hfnRyZW5kfndvbWVufm11bHRpY29sb3JlZH5ifn4yMzE1MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "category": "women",
+      "subcategory": "Ballet-Flats",
+      "id": 15
+    },
+    {
+      "name": "Women Hana Trend Yellow Ballet Flats",
+      "price": "3,999",
+      "discount": "33",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1MjA2L011bHRpY29sb3JlZF8zNl8xX2NhcG9uZX5oYW5hfnRyZW5kfndvbWVufm11bHRpY29sb3JlZH5ifn4yMzE1MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "category": "women",
+      "subcategory": "Ballet-Flats",
+      "id": 16
+    },
+    {
+      "name": "Women Hana Trend Mint Green Ballet Flats",
+      "price": "3,999",
+      "discount": "33",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1MjEwL0dvbGRfMzZfMV9jYXBvbmV+aGFuYX50cmVuZH53b21lbn5nb2xkfmJhbGxldH5mbH4yNn5iYTEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "category": "women",
+      "subcategory": "Ballet-Flats",
+      "id": 17
+    },
+    {
+      "name": "Women Hana Trend Khaki Ballet Flats",
+      "price": "3,999",
+      "discount": "33",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1MjEyL1BsYXRpbnVtXzM2XzNfY2Fwb25lfmhhbmF+dHJlbmR+d29tZW5+cGxhdGludW1+YmFsbGV+YWV+MTgxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "women",
+      "subcategory": "Ballet-Flats",
+      "id": 18
+    },
+    {
+      "name": "Women Hana Trend Beige Ballet Flats",
+      "price": "3,999",
+      "discount": "33",
+      "stars": "4.2/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1Mjk0L0JlaWdlXzM2XzhfY2Fwb25lfmhhbmF+dHJlbmR+d29tZW5+YmVpZ2V+YmFsbGV0fmZ+ZDk1fjkxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "women",
+      "subcategory": "Ballet-Flats",
+      "id": 19
+    },
+    {
+      "name": "Authentic wrist Watch",
+      "price": "3199",
+      "discount": "33",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyOTY0L0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "men",
+      "subcategory": "Watches",
+      "id": 20
+    },
+    {
+      "name": "Authentic wrist Watch",
+      "price": "399",
+      "discount": "33",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzNTMxL0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "men",
+      "subcategory": "Watches",
+      "id": 21
+    },
+    {
+      "name": "CURREN Leather Belt Watch",
+      "price": "2,499",
+      "discount": "75",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjE5ODQ2L0JsdWVfbl8xXzEuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "men",
+      "subcategory": "Watches",
+      "id": 22
+    },
+    {
+      "name": "Military Fashion Watch",
+      "price": "3,499",
+      "discount": "61",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjE5ODUxL0JsYWNrX25fMV8xLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "category": "men",
+      "subcategory": "Watches",
+      "id": 23
+    },
+    {
+      "name": "Tourbillon Mechanical Watch",
+      "price": "7,999",
+      "discount": "68",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDI4L0JsdWVfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "category": "men",
+      "subcategory": "Watches",
+      "id": 24
+    },
+    {
+      "name": "Hollow Mechanical Watch",
+      "price": "3199",
+      "discount": "33",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDI3L0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "men",
+      "subcategory": "Watches",
+      "id": 25
+    },
+    {
+      "name": "360 Pixel Ultra Clear Smart Watch",
+      "price": "8999",
+      "discount": "64",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDYwL0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "men",
+      "subcategory": "Watches",
+      "Date": "2022-10-30",
+      "id": 26
+    },
+    {
+      "name": "Mens Quartz Wheel Watch",
+      "price": "8999",
+      "discount": "74",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI0L0dyZWVuX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "men",
+      "subcategory": "Watches",
+      "ArrivelDate": "2022-11-10",
+      "id": 27
+    },
+    {
+      "name": "Marville Women Handbag ",
+      "price": "3,999",
+      "discount": "21",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1MjMyL051ZGVfU1RBTkRBUkRfM19jYXBvbmV+bWVydmlsbGV+d29tZW5+bnVkZX5oYW5kYmFnfmQyNzA2Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "category": "women",
+      "subcategory": "Handbags-and-Clutches",
+      "ArrivelDate": "2022-11-06",
+      "id": 28
+    },
+    {
+      "name": "Levante Women Multicolored Handbag ",
+      "price": "2,999",
+      "discount": "30",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0OTgyL011bHRpY29sb3JlZF9TVERfMl9jYXBvbmV+bGV2YW50ZX53b21lbn5tdWx0aWNvbG9yZWR+aGFuZH5lfmFjYjYuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "category": "women",
+      "subcategory": "Handbags-and-Clutches",
+      "ArrivelDate": "2022-11-06",
+      "id": 29
+    },
+    {
+      "name": "Marville Women Handbag ",
+      "price": "4,999",
+      "discount": "21",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1MzgwL1Jvc2VfU1RBTkRBUkRfMl9jYXBvbmV+bGV2YW50ZX53b21lbn5yb3NlfmhhbmRiYWd+fjU3ODN+LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "women",
+      "subcategory": "Handbags-and-Clutches",
+      "ArrivelDate": "2022-11-06",
+      "id": 30
+    },
+    {
+      "name": "Levante Women Multicolored Handbag ",
+      "price": "2,999",
+      "discount": "30",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM1MzA3L0xlb3BhcmRfbl81X2NhcG9uZX5sZXZhbnRlfndvbWVufmxlb3BhcmR+aGFuZGJhZ35kfmJjMTMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "category": "women",
+      "subcategory": "Handbags-and-Clutches",
+      "ArrivelDate": "2022-11-06",
+      "id": 31
+    },
+    {
+      "name": "Baseus GaN3 Pro 100W Fast Charge",
+      "price": "8999",
+      "discount": "64",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxNjI4L0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "electronics",
+      "subcategory": "Mobiles-Accessories",
+      "ArrivelDate": "2022-11-05",
+      "id": 32
+    },
+    {
+      "name": "Netac Z Slim Hard Drive 512GB",
+      "price": "8999",
+      "discount": "64",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMzI2L0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "electronics",
+      "subcategory": "Mobiles-Accessories",
+      "ArrivelDate": "2022-11-05",
+      "id": 32
+    },
+    {
+      "name": "Netac Z Slim Hard Drive 512GB",
+      "price": "8999",
+      "discount": "64",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyNDcxL0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "electronics",
+      "subcategory": "Mobiles-Accessories",
+      "ArrivelDate": "2022-11-05",
+      "id": 32
+    },
+    {
+      "name": "Xiaomi Mi LCD Writing Tablet ",
+      "price": "10,999",
+      "discount": "64",
+      "stars": "4/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMTUzL1doaXRlX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "electronics",
+      "subcategory": "Mobiles-Accessories",
+      "ArrivelDate": "2022-11-05",
+      "id": 32
+    },
+    {
+      "name": "400mL Multifunctional Electric Squeezer Juicer ",
+      "price": "7999",
+      "discount": "68",
+      "stars": "4.1/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MjY1L1Bpbmtfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "category": "essentials",
+      "subcategory": "Small-Appliances",
+      "ArrivelDate": "2022-11-11",
+      "id": 33
+    },
+    {
+      "name": "350mL  Electric  Portable  Juicing Cup ",
+      "price": "6,999",
+      "discount": "67",
+      "stars": "4.1/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MjYzL1doaXRlX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "essentials",
+      "subcategory": "Small-Appliances",
+      "ArrivelDate": "2022-11-11",
+      "id": 33
+    },
+    {
+      "name": "Multi-functional Cream Whisker ",
+      "price": "4,999",
+      "discount": "64",
+      "stars": "4.1/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjIzOTgwL0JsdWVfbl8xX0hhbmRUeXBlRm9hbStNYWtlcjEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "category": "essentials",
+      "subcategory": "Small-Appliances",
+      "ArrivelDate": "2022-11-11",
+      "id": 33
+    },
+    {
+      "name": "Multif-unctional Grinder ",
+      "price": "5,199",
+      "discount": "68",
+      "stars": "4.1/5",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjIzOTc0L0dyZWVuX25fMV9NaXhlckdyaW5kZXIxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "category": "essentials",
+      "subcategory": "Small-Appliances",
+      "ArrivelDate": "2022-11-11",
+      "id": 33
+    },
+    {
+
+      "Image":"https://d64lkarmo2mrq.cloudfront.net/img/home/brandbanner1.webp",
+       "id":34,
+       "stars": "4.1/5",
+       "category":"brands"
+
+    },
+    {
+      "Image": "https://d64lkarmo2mrq.cloudfront.net/img/home/brandbanner2.webp",
+      "id":35,
+      "category":"brands"
+    },
+    
+
+      {
+        "stars": "4.1/5",
+        "Image":
+              "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_463,c_limit/opavkaqigvbakxn3e6c1/pico-5-shoes-QQ5g1N.png",
+              "name": "MEN'S REEBOK SWIM ARUBA FLIP SLIPPERS ",
+          "price": 699,
+           "category": "men",
+           "subcategory": "shoes",
+          "strikedoffprice": 999
+      },
+      {
+        "Image":
+              "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_411,c_limit/752efdf6-b2b7-47fc-b137-5a70b5dd9423/air-force-1-07-shoe-tnM0q0.png",
+              "name": " MEN'S REEBOK RUNNING AUSTIN SHOES",
+          "price": 945,
+           "category": "men",
+           "subcategory": "shoes",
+          "strikedoffprice": 2099
+      },
+      {
+        "Image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/08e4dc56-4bde-47b8-869d-0c51b62a0a91/zoom-fly-5-road-running-shoes-lkx7Zp.png",
+              
+        "name":  "MEN'S REEBOK SWIM AVENGER FLIP LP SLIPPERS",
+            "price": 399,
+            "category": "men",
+             "subcategory": "shoes",          
+              "strikedoffprice":799
+      },
+      {
+        "Image":
+              "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_463,c_limit/7437e33d-fcc8-46a6-82d4-16ed34370b6f/air-max-97-shoes-B2TV3Z.png",
+              "name": "MEN'S REEBOK RUNNING TEMPO SHOES ",
+          "price": 1620,
+           "category": "men",
+           "subcategory": "shoes",
+          "strikedoffprice": 3599
+      },
+      {
+        "Image":
+              "https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_463,c_limit/opavkaqigvbakxn3e6c1/pico-5-shoes-QQ5g1N.png",
+              "name": " MEN'S REEBOK RUNNING ASTRO BOOSTER SHOES ",
+          "price":  1440,
+           "category": "men",
+           "subcategory": "shoes",
+          "strikedoffprice": 3199
+      },
+
+      {
+        "Image":
+              "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/45e8827b-4c0e-41b3-afe8-3cb4569632db/jordan-delta-2-clot-shoes.png",
+              "name": "MEN'S REEBOK TRAINING  POLO T-SHIRTS TEE  ",
+          "price":  769,
+           
+          "category": "men",
+          "subcategory": "shoes",
+          "strikedoffprice": 1099,
+          "stars": "3.9/5"
+      },
+
+      {
+      "id": 36,
+      "name": "Peripage Thermal Printer",
+      "Image":"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjE4MDYwXC9XaGl0ZV9uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "price":1170,
+      "category":"fast-moving",
+      "discount": 20,
+      "stars": "3.9/5"
+  },
+
+ 
+  {
+    "id": 37,
+    "name": "3D BENZ AMG WHEEL",
+    "Image":"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI1L1JlZF9uXzFfMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjMyMCwiaGVpZ2h0IjozMjAsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "price": 8999,
+      "category":"fast-moving",
+      "discount": 64,
+  "stars": "4.1/5"
+      
+  },
+
+  {
+    "id": 38,
+    "name": "2Pcs Mattress Lifter Handy Tool",
+    "Image":"https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzODM0L0JsdWVfbl8xXzEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjozMjAsImhlaWdodCI6MzIwLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "price": 1499,
+      "category":"fast-moving",
+      "discount": "75",
+      
+  "stars": "4.1/5"
+  },
+
+  
+  {
+    "id": 39,
+    "name":  "Huawei Frebuds 4i Earphone",
+      "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMwNDk2L0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "price":14999,
+      "category":"fast-moving",
+      "discount": "63",
+      "stars": "4.1/5"
+  },
+  {
+    "stars": "4.1/5",
+    "name": "Nordic dog ornament",
+    "price": "45000",
+    "discount": "53",
+    "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMyMTExL0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "category":"fast-moving",
+    
+    "id": 41
+  },
+  {
+    "name": "350mL  Electric  Portable  Juicing Cup ",
+    "price": "6,999",
+    "discount": "67",
+    "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjM0MjYzL1doaXRlX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "category":"fast-moving",
+   
+    "stars": "4.1/5",
+    "ArrivelDate": "2022-11-11",
+    "id": 40
+  },
+  {
+    "name": "Mens Quartz Wheel Watch",
+    "price": "8999",
+    "discount": "74",
+    "stars": "4.1/5",
+    "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMxMjI0L0dyZWVuX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "category":"fast-moving",
+    "subcategory": "Watches",
+    "ArrivelDate": "2022-11-10",
+    "id": 271
+  },
+  {
+    "name": "360 Pixel Ultra Clear Smart Watch",
+    "price": "8999",
+    "discount": "64",
+    "stars": "4.1/5",
+    "Image": "https://dbnzj30o7hucx.cloudfront.net/eyJidWNrZXQiOiJtZWFuYnV5LWltYWdlcyIsImtleSI6IjMzMDYwL0JsYWNrX25fMV8xLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjMyMCwiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+    "category":"fast-moving",
+    "subcategory": "Watches",
+    "Date": "2022-10-30",
+    "id": 261
+  },
+  {
+    "Image":"https://d64lkarmo2mrq.cloudfront.net/img/home/international-banner-02.webp",
+    "category":"carousal",
+    "id":201,
+    "stars": "4.1/5"
+  },
+  {
+    "Image":"https://d64lkarmo2mrq.cloudfront.net/img/home/watch-offer-banner.webp",
+    "category":"carousal",
+    "id":119,
+    "stars": "4.1/5"
+  },
+  {
+    "Image":"https://d64lkarmo2mrq.cloudfront.net/img/home/turkey-fashion.webp",
+    "category":"carousal",
+    "id":118,
+    "stars": 3.9
+  },
+  {
+    "Image":"https://d64lkarmo2mrq.cloudfront.net/img/home/made-in-turkey.webp",
+    "category":"carousal",
+    "id":117,
+    "stars": 3.9
+  },
+  {
+    "Image":"https://d64lkarmo2mrq.cloudfront.net/img/home/34535_new_arrivals.webp",
+    "category":"carousal",
+    "id":116,
+    "stars": 3.9
+  },
+  {
+    "Image":"https://d64lkarmo2mrq.cloudfront.net/img/home/4544_500_off.webp",
+    "category":"carousal",
+    "id":115,
+    "stars": 3.9
+  },
+  {
+    "Image":"https://d64lkarmo2mrq.cloudfront.net/img/home/544545_best_selling.webp",
+    "category":"carousal",
+    "id":114,
+    "stars": 3.9
+  },
+  {
+    "Image":"https://d64lkarmo2mrq.cloudfront.net/img/home/new-global.webp",
+    "category":"carousal",
+    "id":113,
+    "stars": 3.9
+  },
+  {
+    "Image":"https://d64lkarmo2mrq.cloudfront.net/img/home/prepaid-order-free-watch-banner.webp",
+    "category":"carousal",
+    "id":112,
+    "stars": 3.9
+  }
+  
+  
+
+  ]
+}
