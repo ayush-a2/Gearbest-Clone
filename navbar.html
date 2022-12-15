@@ -4,87 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/navbar.css">
+    <title>navbar</title>
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <script
+      src="https://kit.fontawesome.com/b1dda78bf2.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav class="navbar">
-      <div id="trapezoid">
-        <a class="sub-home" href="#">Home</a>
-        <a href="#About" class="expandHome">About</a>
-        <div class="subnav">
-          <button class="subnavbtn">
-            Clients<i class="fa fa-caret-down"></i>
-          </button>
-          <div class="subnav-content">
-            <div id="subnav-trapezoid">
-              <a href="#Clients">Burger King</a>
-              <a href="#Clients">Southwest Airlines</a>
-              <a href="#Clients">Levi Strauss</a>
-            </div>
-          </div>
+    <!-- navabar -->
+    <!-- navabar -->
+    <nav>
+      <div class="about">
+        <div class="ul_list">
+            <li><p class="zero_padding">Support Center</p></li>
+            <li><p class="zero_padding">Languages</p></li>
+            <li><p class="zero_padding">Country Website</p></li>
         </div>
-
-        <div class="subnav">
-          <button class="subnavbtn">
-            Services<i class="fa fa-caret-down"></i>
-          </button>
-          <div class="subnav-content">
-            <div class="subnav-trapezoid">
-              <a href="#Services">Print Design</a>
-              <a href="#Services">Web Design</a>
-              <a href="#Services">Mobile App Development</a>
-            </div>
-          </div>
-        </div>
-        <a href="https://codepen.io/pec-man" class="expandHome">Contact</a>
       </div>
-    </nav>
+      <div class="navbar">
+        <div class="logo" id="logo_click">Go Pro</div>
+        <div class="serch_box ">
+          <div id="search_form" class="yellow_background">
+            <input type="text" name="search" id="serch_inbox" />
+            <div id="search_button" class="magnifier">
+              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </div>
+            
+          </div>
+          <div class="search_content" id="search_content">
 
-    <section id="About">
-      <h1>About</h1>
-      <hr />
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-        ipsum dolor sit amet.
-      </p>
-    </section>
-    <section id="Clients">
-      <h1>Clients</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-        ipsum dolor sit amet.
-      </p>
-      <hr />
-    </section>
-    <section id="Services">
-      <h1>Services</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-        ipsum dolor sit amet.
-      </p>
-      <hr />
-    </section>
+          </div>
+          <!-- 
+            logo_click
+            sign_in_btn
+        fav_btn
+        cart_btn
+        serch_inbox
+        search_button
+
+     -->
+        </div>
+        <ul class="nav-links" id="nav_links">
+          <li id="sign_in_btn"><i class="fa-solid fa-user yellow margin_right"></i>Sign-in</li>
+          <li id="fav_btn"><i class="fa-solid fa-heart yellow margin_right"></i>Favorite</li>
+          <li id="cart_btn"><i class="fa-solid fa-cart-shopping yellow margin_right"></i>Cart</li>
+        </ul>
+        <div class="humburgr" id="burger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      
+    </nav>
+    <!-- navabar -->
+    <!-- navabar -->
+    <div class="cont"></div>
+
   </body>
 </html>
+<script type= "module" src="./scripts/navbar.js"></script>

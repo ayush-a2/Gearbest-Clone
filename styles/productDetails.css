@@ -1,0 +1,71 @@
+@media All and (min-width:250px) and (max-width:550px){
+    /* body{
+        /* background-color: red; 
+    } */
+
+}
+@media All and (min-width:551px) and (max-width:1150px){
+    /* body{
+        /* background-color: green; 
+    } */
+}
+
+body{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    box-sizing: border-box;
+}
+/* 
+prouctName
+productImage
+productPrice
+productAvailibilty
+cartBtn
+buyNowBtn
+#0F1111
+#ffd814
+#ffa41c
+*/
+#main_container{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.prouctName
+{
+    color: gray;
+}
+.productImage img{
+    width: 100%;
+}
+.productImage{
+    width: 400px;
+    margin: auto;
+}
+.productPrice{
+    color: #0F1111;
+    font-weight: 400;
+}
+.cartBtn{
+    background-color: #ffd814;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.buyNowBtn{
+    background-color: #ffa41c;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    width: 100%;
+    padding: 10px;
+}
+
+/* services */
+.services {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
