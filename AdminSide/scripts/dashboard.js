@@ -46,8 +46,43 @@ let box=document.getElementById('right')
         let image=document.createElement('img');
         image.src=el.image
         let price=document.createElement('h4')
-        price.innerText=el.price
-        div.append(image,price)
+        price.innerText=`Price ${el.price}`;
+        let descr=document.createElement('h4')
+        descr.innerText=el.description
+        let rem_btn=document.createElement("button")
+        rem_btn.innerText="Remove";
+        rem_btn.onclick=(e)=>{
+            e.target.parentNode.remove();
+            remove(el.id,el.category)
+          
+        }
+        let upd_btn=document.createElement("button")
+        upd_btn.onclick=()=>{
+            update(el.id,el.category);
+        }
+        upd_btn.innerText="Update";
+        div.append(image,price,descr,rem_btn,upd_btn)
         box.append(div)
     });
+}
+let remove =async(id,cat)=>{
+    await fetch( `http://localhost:3000/${cat}/${id}`,{
+        method:"DELETE"
+
+    })
+
+}
+let update=async(id,cat)=>{
+    let upd_price=window.prompt("HERE YOU CAN UPDATE PRICE?")
+    let obj={
+        price:upd_price
+    }
+    await fetch( `http://localhost:3000/${cat}/${id}`,{
+        method:"PATCH",
+          
+        body:JSON.stringify(obj),
+    headers:{
+        'Content-Type':'application/json'
+    }
+    })
 }
