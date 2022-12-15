@@ -4,9 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product-Page</title>
+    <script
+      src="https://kit.fontawesome.com/b1dda78bf2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/productDetails.css">
 </head>
 <body>
+    <!-- name -->
+    <div id="main_container">
+        <div class="name_of_product">
+            <p class="prouctName">name of product</p>
+        </div>
+        <!-- image -->
+        <!-- 
+            prouctName
+            productImage
+            productPrice
+            productAvailibilty
+            cartBtn
+            buyNowBtn
+         -->
+        <div class="images_of_product">
+            <img class="productImage" src="https://m.media-amazon.com/images/I/61VbKHdE0rL._AC_SL1500_.jpg" alt="">
+        </div>
+        <!-- price -->
+        <div class="price_of_product">
+            <p>M.R.P.<h1 class="productPrice">23443.00</h1></p>
+        </div>
+        <!-- instock / out of stock -->
+        <div class="stock_valid">
+            <h3 class="productAvailibilty">In stock.</h3>
+        </div>
+        <!-- add to cart  -->
+        <div class="add_to_cart">
+            <button id="add_to_cart" class="cartBtn">Add to Cart</button>
+        </div>
+        <!-- buy now -->
+        <div class="buy_now">
+            <button id="add_to_buy" class="buyNowBtn">Buy Now</button>
+        </div>
+        <!-- service -->
+        <div class="services">
+            <div class="icon_services">
+                <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/trust_icon_free_shipping_81px._CB630870460_.png" alt="">
+                <p>Free Delivery</p>
+            </div>
+            <div class="icon_services">
+                <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-cod._CB485937110_.png" alt="">
+                <p>Pay on Delivery</p>
+
+            </div>
+            <div class="icon_services">
+                <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-returns._CB484059092_.png" alt="">
+                <p>7 days Replacement</p>
+
+            </div>
+            <div class="icon_services">
+                <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-amazon-delivered._CB485933725_.png" alt="">
+                <p>Delivered</p>
+
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
