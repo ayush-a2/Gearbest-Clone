@@ -1,6 +1,16 @@
 let cart_items = JSON.parse(localStorage.getItem("cart_items")) || [];
 
-localStorage.setItem("cart_items", JSON.stringify(cart_items)); 
+//localStorage.setItem("cart_items", JSON.stringify(cart_items)); 
+
+
+let sum = (price) => {
+  
+  var amount=0;
+  amount+=(+price)
+  //let amt = document.getElementById("total_bill");
+  console.log(typeof(amount));
+    console.log(amount);
+}
 
 
 const item_cart = (data) => {
@@ -44,7 +54,7 @@ const item_cart = (data) => {
                 brand.innerHTML = `Brand: ${el.brand}`;
 
                 let location = document.createElement("p");
-                location.innerHTML = `ships from: ${el.location}`;
+                location.innerHTML = `Shiping from: ${el.location}`;
 
                 let model = document.createElement("p");
                 model.innerHTML = el.model;
@@ -59,6 +69,7 @@ const item_cart = (data) => {
         let td_price = document.createElement("td");
         let price = document.createElement("h3")
         price.innerHTML = el.price;
+        let sub_total = el.price
         td_price.append(price);
 
 
@@ -71,12 +82,32 @@ const item_cart = (data) => {
 
               let sub_btn = document.createElement("button");
               sub_btn.innerHTML = "-"
+              sub_btn.addEventListener("click", () => {
+                  if(sub_total==el.price){
+                    sub_btn.style = "disabled";
+                  }else{
+                    quat-= 1
+                    chng_btn.innerHTML = quat
+                    sub_total -= el.price
+                    total.innerHTML = sub_total;
+                    td_total.append(total);
+                   
+                  }
+            })
       
               let chng_btn = document.createElement("button");
               chng_btn.innerHTML = quat
       
               let add_btn = document.createElement("button");
               add_btn.innerHTML = "+"
+              add_btn.addEventListener("click", () => {
+                  quat+= 1
+                  chng_btn.innerHTML = quat
+                  sub_total = el.price*quat
+                  total.innerHTML = sub_total;
+                  td_total.append(total);
+
+              })
       
             chng_div.append(sub_btn, chng_btn, add_btn);
         
@@ -86,9 +117,10 @@ const item_cart = (data) => {
 
           let td_total = document.createElement("td");
             let total = document.createElement("h3");
-            total.innerHTML = el.price;
+            total.innerHTML = sub_total;
           td_total.append(total);
 
+          sum(sub_total);
         // operation buttons 
             let td_operations = document.createElement("td");
 
@@ -117,11 +149,20 @@ const item_cart = (data) => {
         //div.append(image, name, brand, location, store, model, price, chng_div);
 
         container.append(table);
-    })
+
+
+    })   
 }
 
 
-if(cart_items.length>0){
-  item_cart(cart_items);
+    if(cart_items.length>0){
+      item_cart(cart_items);
 
-}
+    }else{
+      let bill = document.getElementById("bill")
+      bill.style.display = "none"
+
+      let payoptions = document.getElementById("payoptions")
+      payoptions.style.display = "none"
+    }
+
