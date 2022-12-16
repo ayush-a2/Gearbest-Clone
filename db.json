@@ -12,7 +12,7 @@
     {
       "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878030535709618176/16518/goods_img-v1/c55c2dec3c65.jpg",
       "category": "Consumer",
-      "price": "17",
+      "price": "20",
       "description": "X14 True Bone Conduction Bluetooth 5.0 Wireless IPX6",
       "id": 2,
       "stars": "4.5/5",
@@ -567,7 +567,7 @@
     {
       "image": "https://gloimg.gbtcdn.com/soa/gb/item/6862458881155723264/16548/goods_thumb_220-v4/68a65e39bd50.jpg",
       "category": "Industrial",
-      "price": "70",
+      "price": "80",
       "description": "ORTUR Laser Rotary Roller 360° Laser Engraver Y-axis",
       "id": 2,
       "stars": "4.5/5",
@@ -711,7 +711,7 @@
     {
       "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/15893/goods_thumb_220-v1/78334287f66f.jpg",
       "category": "Industrial",
-      "price": "194",
+      "price": "195",
       "description": "DK-8-KZ 1500 3000mW Cnc Router Laser Cutter High",
       "id": 18,
       "stars": "4.5/5",
@@ -1206,7 +1206,7 @@
     {
       "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/15924/goods_thumb_220-v1/055f4c442e90.jpg",
       "category": "Sports",
-      "price": "8",
+      "price": "9",
       "description": "LEEPEE Warm Winter Ski Snow Scarf Motorcycle Half Face",
       "id": 4
     },
@@ -1418,7 +1418,7 @@
     {
       "image": "https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16494/goods_thumb_220-v3/30ff8295bfd7.jpg",
       "category": "Appliance",
-      "price": 21,
+      "price": null,
       "description": "https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16494/goods_thumb_220-v3/30ff8295bfd7.jpg",
       "id": 6
     },
