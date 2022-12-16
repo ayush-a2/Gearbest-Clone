@@ -7,27 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="./styles/dashboard.css">
-
+<link rel="stylesheet" href="./styles/admin_navbar.css">
 </head>
 
 <body>
     <div id="navbar">
 
-        <h3><a href="" class="adminavHeading">Collection</a></h3>
-        <h3><a href="" class="adminavHeading">Consumer</a></h3>
-        <h3><a href="" class="adminavHeading">Industrial</a></h3>
-        <h3><a href="" class="adminavHeading">Cell Phones</a></h3>
-        <h3><a href="" class="adminavHeading">Collection</a></h3>
-        <h3><a href="" class="adminavHeading">Sports</a></h3>
-        <h3><a href="" class="adminavHeading">Appliances</a></h3>
-
-
-
-
-
-
     </div>
-
+    <div id="sort_filter" >
+        <div id="sort">
+            <select name="" id="sorting">
+                <option value="">sorting </option>
+                <option value="lth">Low To High </option>
+                <option value="htl">High To Low </option>
+            </select>
+        </div>
+        <div id="filter">
+            <select name="" id="filtering">
+                <option value="">filter</option>
+                <option value="lth"> less than 100</option>
+                <option value="htl">More than 100 </option>
+            </select>
+        </div>
+    </div>
     <div id="full">
         <div id="left">
             <h1>Add product</h1>
@@ -48,7 +50,7 @@
                 <input class="btn" type="submit">
             </form>
         </div>
-        <div id=""></div>
+
         <div id="right">
 
         </div>
@@ -56,4 +58,4 @@
 </body>
 
 </html>
-<script src="./scripts/dashboard.js"></script>
+<script type="module" src="./scripts/dashboard.js"></script>
