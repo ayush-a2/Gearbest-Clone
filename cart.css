@@ -1,7 +1,7 @@
 body {
     font-family: OpenSans, Arial, Helvetica, sans-serif;
     /* background-color: rgb(205, 205, 205); */
-    color: grey;
+    background-color: rgb(245, 245, 245);
 }
 
 #header_list {
@@ -10,7 +10,7 @@ body {
     border: 1px solid rgb(245, 245, 245);
     display: flex;
     justify-content: space-between;
-    background-color: rgb(245, 245, 245);
+    background-color: white;
     margin-bottom: 50px;
 }
 
@@ -31,10 +31,12 @@ body {
     text-align: center;
     margin: auto;
     background-color: rgb(245, 245, 245);
+
 }
 
-#cart_item>div {
+#cart_item> div {
     padding: 30px;
+    margin: 30px;
 }
 
 #img-cart {
@@ -106,4 +108,122 @@ body {
     margin: 2px;
     padding: 10px;
     margin-left: 5px;
+}
+
+
+
+/* bill div */
+
+#bill{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    display: flex;
+}
+
+#bill > div{
+    width: 40%;
+}
+
+#bill > div~div{
+    width: 60%;
+
+}
+
+#bill h4{
+    margin: 0px;
+}
+
+.div_1{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+
+
+.div_1 > div{
+
+    display: flex;
+    text-align: left;
+}
+
+.div_1 > div > div >p{
+    margin: 0px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.div_1 > div img{
+    width: 20%;
+    height: 20%;
+    margin: 8px;
+}
+
+
+#bill > div > div~div{
+    text-align: left;
+    margin-left: 8px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#bill > div > div~div > a{
+    text-decoration: none;
+    color: grey;
+}
+
+#payoptions{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: rgb(72, 72, 72);
+}
+
+#payoptions > img{
+    background-color: white;
+    margin-left: 5px;
+    width: 55px;
+    height: 3%;
+}
+
+#sub_total > .t_bill{
+    
+    align-items: center;
+    margin-left: 58%;
+}
+
+#sub_total > .t_bill > table{
+        width: 90%;
+        /* margin: 20px; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+
+.t_bill > table td{
+    /* margin: 10px; */
+    padding: 5px;
+}
+
+#sub_total > .t_bill_2{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+#sub_total > .t_bill_2 > h4{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#check_btn{
+    padding: 12px;
+    width: 35%;
+    background-color: yellow;
+    font-weight: bold;
+    border: 1px solid yellow;
 }

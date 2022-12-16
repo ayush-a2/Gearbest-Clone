@@ -58,6 +58,8 @@ body {
     text-align: center;
     border-radius: 10px;
     color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .orderButton{
@@ -72,6 +74,8 @@ body {
     border-radius: 5px;
     color: white;
     font-size: larger;
+    margin-top: 15px;
+    margin-bottom: 15px;
     transition: transform .5s;
 
 }
