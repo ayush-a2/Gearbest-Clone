@@ -1,3 +1,8 @@
+import {admin_navbar} from '../components/admin_navbar.js'
+let navbar = document.getElementById('navbar');
+navbar.innerHTML = admin_navbar();
+
+
 let btn=document.getElementById("product_data");
 
 btn.onsubmit=async(e)=>{
@@ -41,6 +46,7 @@ display(res);
 getData()
 let display=(data)=>{
 let box=document.getElementById('right')
+box.innerHTML=null;
     data.forEach(el => {
         let div=document.createElement('div')
         let image=document.createElement('img');
@@ -86,3 +92,87 @@ let update=async(id,cat)=>{
     }
     })
 }
+
+
+// ?_page=7&_limit=20
+
+// pagination
+// let page=1;
+// async  function setData(page){
+//     let res=await fetch(`http://localhost:3000/consumer?_page=${page}&_limit=${30}`);
+//     let data =await res.json();
+//     display(data.data)
+// document.getElementById('sort-lth').onclick=()=>{
+// data.data.sort(function(a,b){
+//     return a.price-b.price
+// });
+// display(data.data);
+// }
+// document.getElementById('sort-htl').onclick=()=>{
+//     data.data.sort(function(a,b){
+//         return b.price-a.price
+//     })
+//     display(data.data);
+//     }
+    
+
+// }
+
+// setData(page);
+// let count;
+// let data=JSON.parse(localStorage.getItem('cart'))
+// console.log(data);
+// if(data ==null){
+//     count=0;
+// }else{
+//     count=data.length;
+// }
+
+
+// function counting(count){
+//     let cart_count=document.getElementById('cart_count')
+//     cart_count.innerText=count;
+// }
+  
+ 
+// counting(count);
+
+
+
+// let next=document.getElementById('next')
+// next.onclick=()=>{
+//     page++;
+//     getData(page);
+//     pages(page)
+//     if(page==2){
+//         next.disabled=true;
+//     }
+//     previous.disabled=false; 
+// }
+
+
+
+
+// let previous=document.getElementById('previous')
+
+// previous.onclick=()=>{
+//     page--;
+//     getData(page);
+//     pages(page)
+//     next.disabled=false;
+//     if(page==1){
+//         previous.disabled=true 
+       
+//     }
+// }
+// if(page==1){
+//     previous.disabled=true 
+   
+// }
+
+// let page_number=document.getElementById('page_number')
+// function pages(page){
+
+//     page_number.innerText=page;
+// }
+// pages(page)

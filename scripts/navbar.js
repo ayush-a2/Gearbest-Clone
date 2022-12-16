@@ -1,4 +1,15 @@
 let search_content=getById("search_content");
+let burger = getById("burger");
+let nav_links=getById("nav_links");
+burger.onclick=()=>{
+  if(nav_links.style.display=="block"){
+    nav_links.style.display="none";
+
+  }else{
+    nav_links.style.display="block";
+
+  }
+}
 
 
 let home_page = () => {

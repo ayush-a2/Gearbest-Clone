@@ -3,14 +3,14 @@ body {
 }
 
 #collection {
-    width: 95%;
+    width: 90%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 30px
-};
+    text-align: center
+}
+
+;
 
 #collection>div {
     display: block;
@@ -21,10 +21,6 @@ body {
 .perCardDiv {
     border-radius: 5px;
     transition: transform .5s;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    padding: 10px;
 }
 
 .perCardDiv:hover {
@@ -39,46 +35,23 @@ body {
 
 .perCardDiv>img {
     border-radius: 5px;
-    width: 100%;
 }
 
 
 #superdeals {
-    width: 95%;
+    width: 90%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    text-align: center;
-    margin: auto;
+    text-align: center
 }
-
 #superdeals>div {
     display: block;
     width: 100%;
 
 }
 
-#recommended{
-    width: 95%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-    text-align: center;
-    margin: auto;
-}
-
-#recommended>div {
-    display: block;
-    width: 100%;
-}
-
-#recommended>div>img{
-    width: 50%;
-}
-
-
-
-.rating_card {
+.rating_card{
     display: block;
     background-color: green;
     width: 20%;
@@ -89,13 +62,13 @@ body {
     padding-bottom: 15px;
 }
 
-.orderButton {
+.orderButton{
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
 }
 
-.orderButton>button {
+.orderButton>button{
     border: 3px solid #000000;
     background-color: black;
     border-radius: 5px;
@@ -107,7 +80,7 @@ body {
 
 }
 
-.orderButton>button:hover {
+.orderButton>button:hover{
     background-color: transparent;
     border: 3px solid #000000;
     color: black;
@@ -121,84 +94,8 @@ body {
     transform: scale(0.8)
 }
 
-.priceDiv {
+.priceDiv{
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
-}
-
-.wrappingName {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.catergory_heading{
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
-
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
-  
-  #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-  }
-
-@media only screen and (max-width: 600px) {
-    #collection {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    #superdeals{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    #collection {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    #superdeals{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    #collection {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    #superdeals{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media only screen and (max-width: 300px) {
-    #collection {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    #superdeals{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
 }
