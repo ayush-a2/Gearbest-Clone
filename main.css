@@ -58,6 +58,26 @@ body {
 
 }
 
+#recommended{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+#recommended>div {
+    display: block;
+    width: 100%;
+}
+
+#recommended>div>img{
+    width: 50%;
+}
+
+
+
 .rating_card {
     display: block;
     background-color: green;
@@ -65,6 +85,8 @@ body {
     text-align: center;
     border-radius: 10px;
     color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .orderButton {
@@ -79,6 +101,8 @@ body {
     border-radius: 5px;
     color: white;
     font-size: larger;
+    margin-top: 15px;
+    margin-bottom: 15px;
     transition: transform .5s;
 
 }
@@ -111,6 +135,7 @@ body {
 
 .catergory_heading{
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 #myBtn {

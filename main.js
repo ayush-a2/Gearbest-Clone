@@ -19,6 +19,16 @@ const superdealFunction = async () => {
 }
 superdealFunction();
 
+
+const fetch_recomend_data= async () => {
+    let res = await fetch('http://localhost:3000/Phones');
+    res = await res.json();
+    console.log(res);
+    recommended(res);
+}
+
+fetch_recomend_data();
+
 const collection_function = (data) => {
     collection.innerHTML = null;
     data.forEach(({ description, discount, category, price, id, stars, image }) => {
@@ -125,10 +135,67 @@ const superdeals_function = (data) => {
 };
 
 
+let rec= document.getElementById('recommended');
+
+const recommended= (data)=> {
+    data.forEach(({ description, discount, category, price, id, stars, image }) => {
+        let image_div = document.createElement('div');
+        image_div.setAttribute('class', 'perCardDiv');
+
+        let imag = document.createElement('img');
+        imag.src = image;
+
+        let title = document.createElement('h3');
+        title.innerText = description;
+        title.setAttribute('class', 'wrappingName');
+
+        let rate = document.createElement('h4');
+        rate.innerText = 'Price' + ' - ' + price + '/-';
+
+        let disc = document.createElement('p');
+        disc.innerText = discount + '%' + ' off';
+
+        let ratings = document.createElement('p');
+        ratings.innerText = stars;
+        ratings.setAttribute('class', 'rating_card');
+        let cartButton = document.createElement('button');
+        cartButton.innerText = 'Add to Cart';
+        let click = 0;
+        cartButton.addEventListener('click', () => {
+            cartButton.innerText = 'Added to Cart';
+            image_div.style.backgroundColor = '#ffe3e3';
+            click++;
+            cartFunction(id);
+            console.log(click)
+            if (click > 1) {
+                alert('Product already added to cart');
+            };
+        })
+        let hr = document.createElement('hr');
+
+        let price_div = document.createElement('div');
+        price_div.setAttribute('class', 'priceDiv');
+        price_div.append(rate, disc);
+
+        let order_div = document.createElement('div');
+        order_div.setAttribute('class', 'orderButton');
+        order_div.append(cartButton, ratings);
+
+
+        image_div.append(imag, title, hr, price_div, order_div);
+        rec.append(image_div);
+    });
+}
+
+
+
+
+
+
 let cartArr = [];
 const cartFunction = (id) => {
     cartArr.push(id);
-    sessionStorage.setItem('cartID', cartArr);
+    localStorage.setItem('cartID', cartArr);
 }
 
 
