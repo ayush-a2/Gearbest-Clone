@@ -38,12 +38,14 @@ document.getElementById("category").value=null
 document.getElementById("price").value=null
 document.getElementById("descr").value=null
 }
-async function getData(){
-let res= await fetch(' http://localhost:3000/consumer')
+let page=1;
+async function getData(page){
+let res= await fetch(`http://localhost:3000/consumer?_page=${page}&_limit=10`)
 res=await res.json();
 display(res);
+
 }
-getData()
+getData(page)
 let display=(data)=>{
 let box=document.getElementById('right')
 box.innerHTML=null;
@@ -52,7 +54,7 @@ box.innerHTML=null;
         let image=document.createElement('img');
         image.src=el.image
         let price=document.createElement('h4')
-        price.innerText=`Price ${el.price}`;
+        price.innerText=`Price ${+el.price}`;
         let descr=document.createElement('h4')
         descr.innerText=el.description
         let rem_btn=document.createElement("button")
@@ -80,8 +82,10 @@ let remove =async(id,cat)=>{
 }
 let update=async(id,cat)=>{
     let upd_price=window.prompt("HERE YOU CAN UPDATE PRICE?")
+upd_price=+upd_price
+console.log (typeof upd_price);
     let obj={
-        price:upd_price
+        price:+upd_price
     }
     await fetch( `http://localhost:3000/${cat}/${id}`,{
         method:"PATCH",
@@ -93,11 +97,46 @@ let update=async(id,cat)=>{
     })
 }
 
+// sorting
+let sort =document.getElementById("sorting")
+sort.onclick=async()=>{
+    console.log(sort.value);
+    if(sort.value=="htl"){
+let res=await fetch('http://localhost:3000/consumer?_sort=price&_order=desc')
+res=await res.json();
+display(res);
+    }
+    else if(sort.value=="lth"){
+        let res=await fetch('http://localhost:3000/consumer?_sort=price&_order=asc')
+        res=await res.json();
+        display(res);    
+    }
+}
+
+let filter=document.getElementById("filtering");
+filter.onclick=async()=>{
+   
+    if(filter.value=="htl"){
+
+let res=await fetch('http://localhost:3000/consumer?price_gte=100')
+res=await res.json();
+display(res);
+    }else if(filter.value=="lth"){
+        let res=await fetch('http://localhost:3000/consumer?price_lte=100')
+res=await res.json();
+display(res);
+    }
+    // else{
+    //     let res=await fetch('http://localhost:3000/consumer?_sort=price&_order=asc')
+    //     res=await res.json();
+    //     display(res);    
+    // }
+}
 
 // ?_page=7&_limit=20
 
 // pagination
-// let page=1;
+
 // async  function setData(page){
 //     let res=await fetch(`http://localhost:3000/consumer?_page=${page}&_limit=${30}`);
 //     let data =await res.json();
@@ -139,40 +178,40 @@ let update=async(id,cat)=>{
 
 
 
-// let next=document.getElementById('next')
-// next.onclick=()=>{
-//     page++;
-//     getData(page);
-//     pages(page)
-//     if(page==2){
-//         next.disabled=true;
-//     }
-//     previous.disabled=false; 
-// }
+let next=document.getElementById('next')
+next.onclick=()=>{
+    page++;
+    getData(page);
+    pages(page)
+    if(page==5){
+        next.disabled=true;
+    }
+    previous.disabled=false; 
+}
 
 
 
 
-// let previous=document.getElementById('previous')
+let previous=document.getElementById('previous')
 
-// previous.onclick=()=>{
-//     page--;
-//     getData(page);
-//     pages(page)
-//     next.disabled=false;
-//     if(page==1){
-//         previous.disabled=true 
+previous.onclick=()=>{
+    page--;
+    getData(page);
+    pages(page)
+    next.disabled=false;
+    if(page==1){
+        previous.disabled=true 
        
-//     }
-// }
-// if(page==1){
-//     previous.disabled=true 
+    }
+}
+if(page==1){
+    previous.disabled=true 
    
-// }
+}
 
-// let page_number=document.getElementById('page_number')
-// function pages(page){
+let page_number=document.getElementById('page_number')
+function pages(page){
 
-//     page_number.innerText=page;
-// }
-// pages(page)
+    page_number.innerText=page;
+}
+pages(page)

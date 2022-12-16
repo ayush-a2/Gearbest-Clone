@@ -3,15 +3,18 @@
     padding: 0; */
     /* width: 100%; */
     font-family: OpenSans, Arial, Helvetica, sans-serif;
+  
 }
 #footer{
     box-sizing: border-box;
+
 }
 #footer-box{
     /* box-sizing: border-box; */
     /* border: 1px solid red; */
     background-color: whitesmoke;
     width: 100%;
+    background-color: #000000;
 }
 #logos{
     width: 100%;

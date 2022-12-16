@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./newcheckout.css" />
+  <link rel="stylesheet" href="./Footer/footer.css">
+
+
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header id="header"></header>
+    <!-- <div id="upper">
+      <img src="https://i.ibb.co/JFZ53vq/sparkle-logo.png" alt="" srcset="" />
+    </div> -->
+    <div id="middle_1">
+      <div id="left_side">
+        <h1>Checkout</h1>
+        <hr />
+        <h2>Shipping Address</h2>
+
+        <input
+          id="fname"
+          class="check"
+          type="text"
+          placeholder="First Name"
+          required
+        /><br />
+
+        <input
+          id="lname"
+          class="check"
+          type="text"
+          placeholder="last Name"
+          required
+        />
+        <br />
+        <input
+          id="number"
+          class="check"
+          type="number"
+          placeholder="Mobile Number"
+          required
+        />
+        <br />
+
+        <input
+          id="address"
+          class="check"
+          type="text"
+          placeholder="Address"
+          required
+        />
+        <br />
+
+        <button id="saveBtn" class="btn">Save Details</button>
+      </div>
+
+      <div id="right_side">
+        <p>Merchandise Subtotal <b id="price" class="left-side"></b></p>
+        <p>
+          Shipping & Handling <i class="fa-solid fa-circle-info"></i
+          ><b class="left-side">FREE</b>
+        </p>
+        <p>
+          Estimated Tax & Other Fees <i class="fa-solid fa-circle-info"></i>
+          <b class="lef">$ 0.00</b>
+        </p>
+        <hr />
+        <h3><b>Estimated Total</b> <b id="pric" class="left-side"></b></h3>
+        <h3><b>Discount Price</b> <b id="dscnt" class="left-side"></b></h3>
+        <hr />
+        <h3><b>Actual Price</b> <b id="actual" class="left-side"></b></h3>
+        <!-- <p>
+         <p> or 4 payments of $42.00 with</p> <br />
+          <b>Klarna </b> or
+          <b>afterpay <i class="fa-solid fa-circle-info"></i></b>
+        </p>
+        . -->
+
+        <input id="promo" type="text" placeholder="Enter Promo Code" />
+        <button id="apl">Apply</button><br />
+
+        <button id="payOnlineBtn" class="butn">
+          Pay Online <i class="fa-regular fa-credit-card"></i>
+        </button>
+        <button class="butn" id="payCashBtn">
+          Pay Cash
+
+          <i class="fa-solid fa-wallet"></i>
+        </button>
+      </div>
+    </div>
+    <footer id="footer_id"></footer>
+  </body>
+</html>
+<script type="module" src="./newcheckout.js"></script>
+
