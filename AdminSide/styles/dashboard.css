@@ -95,6 +95,19 @@ h1 {
 
 }
 
+<<<<<<< HEAD
+/* navbar */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    width: 100%;
+    border: 2px solid black;
+    height: 70px;
+    margin-bottom: 10px;
+=======
 #sort_filter{
     display: flex;
     justify-content: flex-end;
@@ -108,4 +121,5 @@ h1 {
 #filtering{
     height: 30px;
     width: 150px;
+>>>>>>> main
 }
