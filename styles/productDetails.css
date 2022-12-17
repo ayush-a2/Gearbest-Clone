@@ -1,8 +1,11 @@
 @media screen and (max-width:550px){
+    p.mrp{
+        font-size: 10px;
+    }
     .services {
-        display: grid;
+        width: auto;
         flex-direction: column;
-        gap: 20px;
+        gap: 5px;
         text-align: center;
         margin-top: 30px;
     }
@@ -12,6 +15,10 @@
     }
     div#main_container {
         padding: 10px;
+    }
+    .productPrice
+    {
+        font-size: 18px;
     }
 }
 
@@ -75,6 +82,7 @@ buyNowBtn
 /* services */
 .services {
     display: flex;
+    justify-content: space-evenly;
     gap: 20px;
     text-align: center;
     margin-top: 30px;
