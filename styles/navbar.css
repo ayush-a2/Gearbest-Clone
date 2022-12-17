@@ -1,13 +1,15 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar {
   display: flex;
   align-items: center;
   position: fixed;
-  top: 20px;
+  top: 40px;
   height: 80px;
 }
 
@@ -21,14 +23,17 @@
   width: 100%;
   text-align: center;
   display: flex;
-
-  background-color: #fff;
+  position: fixed;
+  background-color: #101010;
+  height: 40px;
+  color: gray;
+  line-height: 40px;
 }
 .navbar {
   width: 100%;
   justify-content: space-around;
   text-align: center;
-
+  height: 137px;
   background-color: #fff;
 }
 /* about */
@@ -50,7 +55,6 @@
 
 /* serch box */
 #search_form {
-  padding: 2px 1px;
   border-radius: 30px;
   display: flex;
 }
@@ -58,8 +62,8 @@
 #serch_inbox {
   border: 0;
   outline: none;
-  height: 29px;
-  width: 366px;
+  height: 46px;
+  width: 489px;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
   padding-left: 20px;
@@ -68,9 +72,13 @@
   text-decoration: none;
 }
 .magnifier {
-  padding: 5px 10px;
+  padding: 10px 18px;
   display: flex;
   align-items: center;
+  color: #fff;
+  font-size: 26px;
+  box-sizing: border-box;
+  font-weight: 100;
 }
 /* 
 
@@ -80,10 +88,10 @@
 */
 /* color classes */
 .yellow_background {
-  background-color: #ffda00;
+  background-color: #0069ff;
 }
 .yellow {
-  color: #ffda00;
+  color: #0069ff;
 }
 
 /* navbar links */
@@ -121,7 +129,7 @@
   display: none;
 }
 
-@media All and (min-width:250px) and (max-width:550px){
+@media All and (min-width: 250px) and (max-width: 550px) {
   .nav-links {
     display: none;
     list-style: none;
@@ -163,13 +171,15 @@
     background-color: #fff;
     display: none;
   }
-  .humburgr{
+  .humburgr {
     display: block;
   }
-
+  .about {
+    font-size: 5px;
+  }
 }
-@media All and (min-width:551px) and (max-width:800px){
-  .nav-links{
+@media All and (min-width: 551px) and (max-width: 800px) {
+  .nav-links {
     display: none;
     list-style: none;
     gap: 20px;
@@ -183,7 +193,7 @@
     text-align: left;
     width: 120px;
   }
-  .humburgr{
+  .humburgr {
     display: block;
   }
 }
