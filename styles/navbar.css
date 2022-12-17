@@ -168,7 +168,7 @@
   }
 
 }
-@media All and (min-width:551px) and (max-width:1150px){
+@media All and (min-width:551px) and (max-width:800px){
   .nav-links{
     display: none;
     list-style: none;

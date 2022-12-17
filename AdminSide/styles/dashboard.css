@@ -115,10 +115,12 @@ h1 {
 
 }
 
+
 /* navbar */
 body {
     margin: 0px;
     padding: 0px;
+
 }
 
 #navbar {
@@ -126,4 +128,27 @@ body {
     border: 2px solid black;
     height: 70px;
     margin-bottom: 10px;
+
+}
+
+#navbar {
+    width: 100%;
+    border: 2px solid black;
+    height: 70px;
+    margin-bottom: 10px;
+
+#sort_filter{
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid black;
+    gap: 10px;
+}
+#sorting{
+    height: 30px;
+    width: 150px;
+}
+#filtering{
+    height: 30px;
+    width: 150px;
+
 }

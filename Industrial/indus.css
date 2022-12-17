@@ -1,0 +1,76 @@
+*{
+    font-family: OpenSans-Bold, Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 310px;
+  background-color:whitesmoke;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  
+}
+/* Sidebar links */
+.sidebar a {
+    margin-left: 10px;
+  font-size: 16px;
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar a:hover {
+  text-decoration: underline;
+  font-size: 17px;
+  font-weight: bold;
+}
+.b{
+    margin-left: 10px;
+    font-size: 18px;
+    padding: 16px;
+}
+#container{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px 10px;
+    min-width: 75%;
+    height: auto;
+    margin-left: 330px;
+}
+#button{
+  /* border: 1px solid black; */
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+.btn{
+  padding: 3px 15px;
+  /* background-color: aqua; */
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.btn:hover{
+  cursor: pointer;
+  -ms-transform: scale(1.0);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.02);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.products{
+  padding-left: 10px;
+}
+.products:hover{
+  /* border: 1px solid red; */
+    cursor: pointer;
+    -ms-transform: scale(1.0);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
