@@ -13,56 +13,15 @@
 </head>
 <body>
     <div class="main">
-        <div class="left_side_navi">
-            <ul class="ul_list">
-                <li><p id="narrow_search"><b>NARROW SEARCH RESULTS</b></p></li>
-                
-                    <li>ON SALE</li>
-                    <li>IN STOCK</li>
-               
-                <li><p id="hot_search"><b>Hot Search</b></p></li>
-               
-                    <li>3D Printer</li>
-                    <li>CoreXY</li>
-                    <li>Dual Drive Extruder</li>
-                    <li>3D Drucker</li>
-                    
-                
-            </ul>
-        </div>
+       
         <div class="right_side_container">
 
-            <!-- buying guide -->
-            <div class="buying_gude">
-                <i class="fa-solid fa-star"></i><span> Buying Guide</span>
-            </div>
-            <!-- sort methods -->
-            <!-- 
-sortMethods
-sort_by_rating_div
-sort_by_price_div
-sort_by_discount_div
-
-             -->
-            <div class="sortMethods">
-                <div class="sort_by_rating_div vertical_align">
-                    <label for="">Sort By : </label><button>Low to High</button><button>High to Low</button>
-                </div>
-                <div class="sort_by_price_div vertical_align">
-                    <label for="">Price :</label>
-                    <button class="small_font">$10.1 - 20</button>
-                    <button class="small_font">$20.1 - 50</button>
-                    <button class="small_font">$50.1 - 100</button>
-                    <button class="small_font">$100.1 - 200</button>
-                    <button class="small_font">$200.1 - 500</button>
-                    <button class="small_font">$500.1 & Above</button>
-
-                </div>
-                <div class="sort_by_discount_div vertical_align" >
-                    <label for="">Discount :</label>
-
-                </div>
-            </div>
+           <select name="sort" id="select_sort" value="srt">
+            <option value="1">Sort by</option>
+            <option value="2">High to Low</option>
+            <option value="4">Low to High</option>
+           </select>
+            
             <!-- append products -->
             <!-- 
                 id-append_container
