@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="./styles/dashboard.css">
-<link rel="stylesheet" href="./styles/admin_navbar.css">
-</head>
 
+</head>
 <body>
     <div id="navbar">
+       
+
+
 
         <h3><a href="" class="adminavHeading">Collection</a></h3>
         <h3><a href="" class="adminavHeading">Consumer</a></h3>
@@ -61,32 +62,45 @@
         </div>
     </div>
     <div id="full">
-        <div id="left">
-            <h1>Add product</h1>
-            <form id="product_data" action="">
-                <select id="category">
-                    <option value="category">Category</option>
-                    <option value="collection">collection</option>
-                    <option value="Consumer">Consumer</option>
-                    <option value="Industrial">Industrial</option>
-                    <option value="Phones">Cell phones</option>
-                    <option value="Sports">sports</option>
-                    <option value="Appliance">Appliance</option>
-                    <option value="smart_Watch">Smart Watch</option>
-                </select><br>
-                <input type="text" id="image" placeholder="product image"><br>
+<div id="left">
+<h1>Add product</h1>
+<form id="product_data" action="">
+    <select  id="category">
+        <option value="category">Category</option>
+        <option value="collection">collection</option>
+        <option value="Consumer">Consumer</option>
+        <option value="Industrial">Industrial</option>
+        <option value="Phones">Cell phones</option>
+        <option value="Sports">sports</option>
+        <option value="Appliance">Appliance</option>
+            </select><br>
+    <input type="text" id="image" placeholder="product image"><br>
+  
+    <input type="number" id="price" placeholder="product price"><br>
+    <input type="text" id="descr" placeholder="Description"><br>
+    <input class="btn" type="submit">
+</form>
+</div>
+<div id=""></div>
+<div id="right">
+
+
+</div>
 
                 <input type="number" id="price" placeholder="product price"><br>
                 <input type="text" id="descr" placeholder="Description"><br>
                 <input class="btn" type="submit">
             </form>
         </div>
+
         <div id=""></div>
+
 
         <div id="right">
 
         </div>
         
+
     </div>
     <div id="buttons">
         <!-- add previous, next buttons and page number here -->
@@ -95,6 +109,5 @@
         <button id="previous">previous</button>
       </div>
 </body>
-
 </html>
 <script type="module" src="./scripts/dashboard.js"></script>
