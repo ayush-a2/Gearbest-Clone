@@ -3,31 +3,51 @@ body {
 }
 
 #navbar {
-    border: 3px solid red;
     display: flex;
-    margin: auto;
+    /* margin: auto; */
+    width: 100%;
     justify-content: space-between;
-    width: 80%;
     background: black;
 }
+#nav-left{
+   margin: auto;
+}
+
+#logo{
+    width: 20%;
+    border-radius: 100px;
+    border: 3px solid white;
+
+}
+
+#nav-right{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
 
 .adminavHeading {
     color: white;
 }
 
 #full {
-    width: 100%;
+    width: 90%;
     display: flex;
+    justify-content: space-between;
     gap: 20px;
 }
 
 #left {
-    width: 30%;
-    height: 900px;
-    background-color: rgb(230, 230, 230);
-    margin-top: 40px;
+    width: auto;
+    height: auto;
+    background-color: rgba(77, 77, 77, 0.39);
+    margin: 10px;
     text-align: center;
-    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 #right {
@@ -95,6 +115,28 @@ h1 {
 
 }
 
+
+/* navbar */
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#navbar {
+    width: 100%;
+    border: 2px solid black;
+    height: 70px;
+    margin-bottom: 10px;
+
+}
+
+#navbar {
+    width: 100%;
+    border: 2px solid black;
+    height: 70px;
+    margin-bottom: 10px;
+
 #sort_filter{
     display: flex;
     justify-content: flex-end;
@@ -108,4 +150,5 @@ h1 {
 #filtering{
     height: 30px;
     width: 150px;
+
 }
