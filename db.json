@@ -605,7 +605,6 @@
     }
   ],
   "Industrial": [
- 
     {
       "image": "https://gloimg.gbtcdn.com/soa/gb/item/6862458881155723264/16548/goods_thumb_220-v4/68a65e39bd50.jpg",
       "category": "Industrial",
@@ -727,13 +726,6 @@
       "price": "549",
       "description": " 15% OFF ORTUR Laser Master 2 Pro S2 LU2-10A Laser Engraving Cutting Machine 10W 15000mm/Min Laser Engraver ORTUR Laser Master 2 Pro S2 LU2-10A Laser Engraving",
       "id": 15
-    },
-    {
-      "image": "https://www.gearbest.com/laser-engraving-machine/pp_3009414917237133.html?wid=2000001",
-      "category": "Industrial",
-      "price": "319",
-      "description": "ORTUR Laser Master 2 S2-LF 24V Laser Engraver DIY Laser",
-      "id": 16
     },
     {
       "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/15978/goods_thumb_220-v5/f8cc70d4609e.jpg",
@@ -1211,15 +1203,6 @@
       "price": "6",
       "description": "Baseus 100W USB C To USB Type C Cable USBC PD Fast",
       "id": 15,
-      "stars": "4.5/5",
-      "discount": "50%"
-    },
-    {
-      "image": "Baseus 100W USB C To USB Type C Cable USBC PD Fast",
-      "category": "Phones",
-      "price": "2",
-      "description": "Baseus 100W USB C To USB Type C Cable USBC PD Fast",
-      "id": 16,
       "stars": "4.5/5",
       "discount": "50%"
     },
@@ -1921,7 +1904,7 @@
       "category": "Appliance",
       "price": 12,
       "description": "Fashion Smart Digital Watch for Men Women",
-      "id":48 
+      "id": 48
     }
   ],
   "superdeals": [
@@ -1972,7 +1955,6 @@
     }
   ],
   "smart_Watch": [
-
     {
       "image": "https://www.gearbest.com/u_file/2212/15/products/df315d0c55.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
       "category": "smart_Watch",

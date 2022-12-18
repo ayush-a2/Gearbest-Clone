@@ -17,15 +17,15 @@ function burg() {
 
 
 let home_page = () => {
-  // window.location.href=""
+  window.location.href="index.html";
   console.log("Hii");
 };
 let sign_page = () => {
-  // window.location.href=""
+  window.location.href="AdminSide/user_sign.html"
   console.log("Hii");
 };
 let cart_page = () => {
-  // window.location.href=""
+  window.location.href="cart.html"
   console.log("Hii");
 };
 let search_button = () => {
