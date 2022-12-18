@@ -1,3 +1,8 @@
+import {footer} from '../Footer/footer.js';
+
+let fot = document.getElementById("footer");
+fot.innerHTML = footer();
+
 const url ="http://localhost:3000/Industrial"
 let getData = async (page)=>{
     let res = await fetch (url);
@@ -33,7 +38,7 @@ let appendData = (data,page)=>{
         price.className="price"
 
         let cartButton= document.createElement('button');
-        cartButton.id="btn";
+        cartButton.id="btnn";
         cartButton.innerText='Add to Cart';
         let click=0;
         cartButton.addEventListener('click',()=>{
