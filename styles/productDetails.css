@@ -41,6 +41,10 @@ buyNowBtn
 #ffd814
 #ffa41c
 */
+.productAvailibilty
+{
+    color: green;
+}
 #main_container{
     width: 100%;
     box-sizing: border-box;
