@@ -550,11 +550,18 @@
     {
       "firstname": "Ayush",
       "email": "ayush8583@gmail.com",
-      "password": "12345",
+      "password": "00000",
       "number": "6307646469",
       "id": 3,
       "stars": "4.5/5",
       "discount": "50%"
+    },
+    {
+      "firstname": "Ritik ",
+      "email": "ritik8583@gmail.com",
+      "password": "11111",
+      "number": "7800302470",
+      "id": 4
     }
   ],
   "collection": [
