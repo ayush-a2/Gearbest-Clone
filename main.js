@@ -1,4 +1,10 @@
 import { footer } from './Footer/footer.js';
+import { navbar } from './components/navbar.js';
+
+
+
+
+document.getElementById("navbar").innerHTML = navbar();
 
 let homefooter = document.getElementById('shop_footer');
 homefooter.innerHTML = footer();
@@ -20,7 +26,7 @@ const superdealFunction = async () => {
 superdealFunction();
 
 
-const fetch_recomend_data= async () => {
+const fetch_recomend_data = async () => {
     let res = await fetch('http://localhost:3000/Phones');
     res = await res.json();
     console.log(res);
@@ -135,9 +141,9 @@ const superdeals_function = (data) => {
 };
 
 
-let rec= document.getElementById('recommended');
+let rec = document.getElementById('recommended');
 
-const recommended= (data)=> {
+const recommended = (data) => {
     data.forEach(({ description, discount, category, price, id, stars, image }) => {
         let image_div = document.createElement('div');
         image_div.setAttribute('class', 'perCardDiv');
@@ -201,24 +207,24 @@ const cartFunction = (id) => {
 
 
 let mybutton = document.getElementById("myBtn");
-mybutton.addEventListener('click', ()=>{
+mybutton.addEventListener('click', () => {
     topFunction();
 });
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
 }
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-  document.body.scrollIntoView({
-    behavior: "smooth",
-  });
-  document.body.scrollIntoView.behavior= "smooth";
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    document.body.scrollIntoView({
+        behavior: "smooth",
+    });
+    document.body.scrollIntoView.behavior = "smooth";
 }

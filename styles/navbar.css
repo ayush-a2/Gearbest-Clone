@@ -9,8 +9,12 @@
   display: flex;
   align-items: center;
   position: fixed;
+  z-index: 1;
   top: 40px;
   height: 80px;
+}
+img{
+  width: 130px;
 }
 
 .nav-links {
@@ -24,6 +28,8 @@
   text-align: center;
   display: flex;
   position: fixed;
+  z-index: 1;
+  top: 0;
   background-color: #101010;
   height: 40px;
   color: gray;
@@ -63,7 +69,7 @@
   border: 0;
   outline: none;
   height: 46px;
-  width: 489px;
+  width: 300px;
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
   padding-left: 20px;
@@ -111,12 +117,10 @@
 
 .search_content {
   width: 344px;
-  height: 74px;
   /* border: 1px solid black; */
   position: absolute;
   margin-left: 22px;
   background-color: #fff;
-  display: none;
 }
 
 /* humburger */
@@ -136,8 +140,8 @@
     gap: 20px;
     /* border: 1px solid; */
     position: fixed;
-    right: 10px;
-    top: 87px;
+    right: 63px;
+    top: 161px;
     padding-left: 4px;
     line-height: 2;
     font-size: small;
@@ -147,29 +151,26 @@
   #serch_inbox {
     border: 0;
     outline: none;
-    height: 19px;
+    height: 23px;
     width: 129px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
     padding-left: 20px;
     font-size: 10px;
     font-weight: 100;
     text-decoration: none;
   }
   #search_form {
-    padding: 2px 1px;
     border-radius: 30px;
     display: flex;
-    height: 23px;
+    height: 20px;
   }
   .search_content {
     width: 109px;
-    height: 74px;
     /* border: 1px solid black; */
     position: absolute;
     margin-left: 22px;
     background-color: #fff;
-    display: none;
   }
   .humburgr {
     display: block;
@@ -177,16 +178,19 @@
   .about {
     font-size: 5px;
   }
+  .fa-sharp {
+    font-size: 17px;
+  }
 }
-@media All and (min-width: 551px) and (max-width: 800px) {
+@media All and (min-width: 551px) and (max-width: 1000px) {
   .nav-links {
     display: none;
     list-style: none;
     gap: 20px;
     /* border: 1px solid; */
     position: fixed;
-    right: 10px;
-    top: 80px;
+    right: 65px;
+    top: 173px;
     padding-left: 4px;
     line-height: 2;
     background-color: #fff;
@@ -195,5 +199,8 @@
   }
   .humburgr {
     display: block;
+  }
+  .fa-sharp {
+    font-size: 20px;
   }
 }

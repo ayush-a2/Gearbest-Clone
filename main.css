@@ -1,21 +1,42 @@
 body {
     /* width: 95%; */
-    margin: auto;
+    margin-top: 180px;
+    /* margin: auto; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#darkModeToogle {
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+    border-radius: 20px;
+    background-color: #0069FF;
+    color: white;
+    border: none;
+}
+.dark{
+    background-color: rgb(37, 37, 37);
+    color: #e6e6e6;
 }
 
 #collection {
     width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    /* Make changes here */
     gap: 20px;
-    text-align: center
+    text-align: center;
 }
 
 #collection>div {
     display: block;
     width: 100%;
-
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* Make changes here */
 }
 
 .perCardDiv {
@@ -37,7 +58,7 @@ body {
     border-radius: 5px;
 }
 
-.perCardDiv > h3{
+.perCardDiv>h3 {
     width: 220px;
     margin-left: 5px;
     white-space: nowrap;
@@ -45,36 +66,41 @@ body {
     text-overflow: ellipsis
 }
 
-#superdeals{
+#superdeals {
     width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    /* Make changes here */
     gap: 20px;
-    text-align: center;
-    margin: auto;
+    text-align: center
 }
 
-#superdeals >div {
-    display: block;
-    width: 100%;
-}
-#recommended > div{
+#superdeals>div {
     display: block;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-.perCardDiv > h3{
-    width: 220px;
-    margin-left: 5px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis
+
+
+#recommended {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* Make changes here */
+    gap: 20px;
+    text-align: center
+}
+
+#recommended>div {
+    display: block;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 
-
-.rating_card{
+.rating_card {
     display: block;
     background-color: green;
     width: 20%;
@@ -85,13 +111,13 @@ body {
     padding-bottom: 15px;
 }
 
-.orderButton{
+.orderButton {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
 }
 
-.orderButton>button{
+.orderButton>button {
     border: 3px solid #000000;
     background-color: black;
     border-radius: 5px;
@@ -103,7 +129,7 @@ body {
 
 }
 
-.orderButton>button:hover{
+.orderButton>button:hover {
     background-color: transparent;
     border: 3px solid #000000;
     color: black;
@@ -117,7 +143,7 @@ body {
     transform: scale(0.8)
 }
 
-.priceDiv{
+.priceDiv {
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
