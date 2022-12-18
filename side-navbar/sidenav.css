@@ -30,11 +30,13 @@
     font-weight: bold;
     padding-bottom: 3px;
 }
-#navbar-2 div button{
+#navbar-2 div div{
     border: none;
+    padding-top: 40px;
     padding-left: 20px;
     border-radius: 10px;
     padding-right: 100px;
+    padding-bottom: 40px;
     background-color: #0069ff;
     font-size: 16px;
     color: white;
@@ -53,10 +55,10 @@
 /* drpdwn */
 
 #drpdwn{
-  visibility: hidden;
+  /* visibility: hidden; */
   width: 300px;
   height: 400px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   position: fixed;
   top: 9%;
   left: 1%;
@@ -64,7 +66,7 @@
 }
 
 #drpdwn>div{
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   display: flex;
   margin-bottom: 5px;
   align-items: center;
@@ -76,7 +78,7 @@
 #sub-inner1{
   position: fixed;
   min-width: 500px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   display: flex;
   gap: 30px;
   top:10%;
@@ -100,7 +102,7 @@
 #sub-inner2{
   position: fixed;
   min-width: 500px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   display: flex;
   gap: 30px;
   top:18%;
@@ -120,7 +122,7 @@
 #sub-inner3{
   position: fixed;
   min-width: 500px;
-  /* border: 1px solid red; */
+  border: 1px solid red;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(3,60px);
