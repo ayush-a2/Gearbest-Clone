@@ -1,26 +1,155 @@
-#full{
-    border: 1px solid black;
-    width: 100%;
-    
-display: flex;
-gap: 20px;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#left{ 
-     border: 1px solid black;
-    width: 30%;
+
+#navbar {
+    display: flex;
+    /* margin: auto; */
+    width: 100%;
+    justify-content: space-between;
+    background: black;
+}
+#nav-left{
+   margin: auto;
+}
+
+#logo{
+    width: 20%;
+    border-radius: 100px;
+    border: 3px solid white;
+
+}
+
+#nav-right{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.adminavHeading {
+    color: white;
+}
+
+#full {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#left {
+    width: auto;
+    height: auto;
+    background-color: rgba(77, 77, 77, 0.39);
+    margin: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#right {
+
+    width: 67%;
     height: 900px;
 }
-#right{ 
-    border: 1px solid black;
-   width: 67%;
-   height: 900px;
-}
-#right{
+
+#right {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    
 }
-#right img{
+
+#right img {
     display: block;
     width: 200px;
     margin: auto;
+}
+
+#product_data input,
+h1 {
+    width: 300px;
+    margin: 10px;
+    border: 0px 2px solid black;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#category {
+    width: 300px;
+    margin: 10px;
+    border: 0px 2px solid black;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#product_data input:hover {
+
+    border: 2px solid black;
+}
+
+#product_data #category:hover {
+
+    border: 2px solid black;
+}
+
+.btn {
+
+    border: none;
+}
+
+#right div {
+    border: 1px solid black;
+}
+
+#right h4 {
+    text-align: center;
+}
+
+#right button {
+    width: 100px;
+
+}
+
+
+/* navbar */
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#navbar {
+    width: 100%;
+    border: 2px solid black;
+    height: 70px;
+    margin-bottom: 10px;
+
+}
+
+#navbar {
+    width: 100%;
+    border: 2px solid black;
+    height: 70px;
+    margin-bottom: 10px;
+}
+#sort_filter{
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid black;
+    gap: 10px;
+}
+
+#sorting{
+    height: 30px;
+    width: 150px;
+}
+#filtering{
+    height: 30px;
+    width: 150px;
+
 }
