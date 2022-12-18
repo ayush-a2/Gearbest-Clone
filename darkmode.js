@@ -5,6 +5,9 @@
     </script> */}
 
 
+// html tags
+//  <Button id="darkModeToogle">Dark Mode: <span id="dark_mode_status"></span></Button>
+
 // Paste this CSS property
 // #darkModeToogle {
 //     margin-bottom: 10px;
