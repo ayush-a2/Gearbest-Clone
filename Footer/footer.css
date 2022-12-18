@@ -15,7 +15,6 @@ body{
     /* box-sizing: border-box; */
     /* border: 1px solid red; */
     background-color: whitesmoke;
-
     background-color: #292929;
    
 }
@@ -92,7 +91,7 @@ body{
 }
 
 #icons{
-    
+    color: white;
     /* border: 1px solid red; */
     display: flex;
     gap: 10px;
@@ -100,6 +99,7 @@ body{
     text-align: center;
 }
 .fa {
+    color: white;
     padding: 9px;
     font-size: 30px;
     width: 20px;
