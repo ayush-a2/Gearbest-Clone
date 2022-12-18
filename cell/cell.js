@@ -1,6 +1,13 @@
+
 import { navbar } from "../components/navbar.js";
 
 document.getElementById("navbar").innerHTML=navbar();
+
+import {footer} from '../Footer/footer.js';
+
+let fot = document.getElementById("footer");
+fot.innerHTML = footer();
+
 
 
 const url ="http://localhost:3000/Phones"
@@ -36,7 +43,22 @@ let appendData = (data,page)=>{
         price.innerText = el.price;
         price.className="price"
 
-        div.append(img,des,price);
+        let cartButton= document.createElement('button');
+        cartButton.id="btnn";
+        cartButton.innerText='Add to Cart';
+        let click=0;
+        cartButton.addEventListener('click',()=>{
+            cartButton.innerText='Added to Cart';
+            click++;
+            cartFunction(id);
+            console.log(click)
+            if(click>1){
+                alert('Product already added to cart');
+            };
+        })
+
+        div.append(img,des,price,cartButton);
+
 
         cont.append(div);
 

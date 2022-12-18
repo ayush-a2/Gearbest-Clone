@@ -1,0 +1,51 @@
+/* category changes */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#right {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    text-align: center;
+
+}
+#right {
+    /* width: 67%; */
+    /* //height: 900px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#right > div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+}
+
+#right > div > h4~h4{
+        width: 220px;
+        margin-left: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis
+    
+}
+
+#right > div button{
+    padding: 10px;
+    margin-left: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+
+/* #right{
+    margin: auto;
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#right>div {
+   border: 2px solid rgba(0, 0, 0, 0.514);
+} */

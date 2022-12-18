@@ -103,7 +103,8 @@ h1 {
 }
 
 #right div {
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
 }
 
 #right h4 {
@@ -112,8 +113,20 @@ h1 {
 
 #right button {
     width: 100px;
+    padding: 20px;
+    margin-left: 5px;
 
 }
+
+#right > div > h4~h4{
+    width: 280px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
 
 
 /* navbar */
@@ -125,11 +138,12 @@ body {
 
 #navbar {
     width: 100%;
-    border: 2px solid black;
+    border: 2px solid rgb(30, 30, 36);
     height: 70px;
     margin-bottom: 10px;
-
 }
+
+
 
 #navbar {
     width: 100%;
@@ -137,10 +151,24 @@ body {
     height: 70px;
     margin-bottom: 10px;
 }
+
+#buttons{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+}
+
+#buttons > h5 {
+    margin: auto;
+    padding: 5px;
+
+}
+
+
 #sort_filter{
     display: flex;
+    padding: 20px;
     justify-content: flex-end;
-    border: 2px solid black;
     gap: 10px;
 }
 
