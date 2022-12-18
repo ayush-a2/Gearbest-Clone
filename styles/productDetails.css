@@ -11,7 +11,7 @@
     }
     
     img.productImage {
-        width: 150px;
+        width: 283px;
     }
     div#main_container {
         padding: 10px;
@@ -29,6 +29,7 @@
 body{
     font-family: "Amazon Ember",Arial,sans-serif;
     box-sizing: border-box;
+    margin-top: 180px;
 }
 /* 
 prouctName
@@ -72,6 +73,7 @@ buyNowBtn
     border-radius: 30px;
     width: 100%;
     padding: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .buyNowBtn{

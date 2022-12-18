@@ -1,15 +1,19 @@
-let search_content=getById("search_content");
-let burger = getById("burger");
-let nav_links=getById("nav_links");
-burger.onclick=()=>{
-  if(nav_links.style.display=="block"){
-    nav_links.style.display="none";
+let search_content = getById("search_content");
 
-  }else{
-    nav_links.style.display="block";
-
-  }
+let nav_links = getById("nav_links");
+let rsource = "http://localhost:3000/Phones";
+function burg() {
+  getById("burger").addEventListener("click", () => {
+    if (getById("nav_links").style.display == "block") {
+      getById("nav_links").style.display = "none";
+    } else {
+      getById("nav_links").style.display = "block";
+    }
+  });
 }
+// ?title=json-server
+
+
 
 
 let home_page = () => {
@@ -31,8 +35,10 @@ let search_button = () => {
 let serch_inbox_fun = () => {
   let serch_term = getById("serch_inbox").value;
   if (serch_term != null || serch_term != "") {
-    console.log("serch_term:", serch_term);
-  }else{
+    fetchRequest(serch_term);
+    getById("search_content").innerText=serch_term;
+    console.log("serch_term:", searchData);
+  } else {
     return;
   }
 };
@@ -46,9 +52,9 @@ function debounce(func, delay) {
   }, delay);
 }
 
-function getById(tag){
+function getById(tag) {
   return document.getElementById(tag);
-};
+}
 
 window.addEventListener("load", function () {
   let logo_Onclick = getById("logo_click");
@@ -71,17 +77,20 @@ window.addEventListener("load", function () {
   };
   let serch_inbox = getById("serch_inbox");
   serch_inbox.oninput = () => {
+    
     debounce(serch_inbox_fun, 1000);
     // serch_inbox_fun();
-    
   };
-  serch_inbox.onfocus=()=>{
-    search_content.style.display="block";
+  serch_inbox.onfocus = () => {
+    getById("search_content").style.display = "block";
+  };
+  serch_inbox.onblur = () => {
+    getById("search_content").style.display = "none";
+  };
+  let burger = getById("burger");
+  burger.onclick=function(){
+    burg()
   }
-  serch_inbox.onblur=()=>{
-    search_content.style.display="none";
-  }
-  
 });
 /*
 logo_click
