@@ -205,8 +205,8 @@ const cartFunction = (image, price,id,description) => {
         image: image,
         id: id
     }
-    
-    localStorage.setItem("cart_items", JSON.stringify(obj));
+    cart_items.push(obj);
+    localStorage.setItem("cart_items", JSON.stringify(cart_items));
     console.log(obj)
 }
 
