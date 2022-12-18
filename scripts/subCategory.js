@@ -10,6 +10,8 @@ image
 disc_of_product
 */
 import { navbar } from "../components/navbar.js";
+import { footer } from "../Footer/footer.js";
+document.getElementById("footer").innerHTML=footer();
 
 document.getElementById("navbar").innerHTML=navbar();
 

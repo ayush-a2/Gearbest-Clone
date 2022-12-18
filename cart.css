@@ -2,6 +2,9 @@ body {
     font-family: OpenSans, Arial, Helvetica, sans-serif;
     /* background-color: rgb(205, 205, 205); */
     background-color: rgb(245, 245, 245);
+    margin-top: 180px;
+    box-sizing: border-box;
+
 }
 
 #header_list {
