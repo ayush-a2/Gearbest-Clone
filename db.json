@@ -605,7 +605,6 @@
     }
   ],
   "Industrial": [
- 
     {
       "image": "https://gloimg.gbtcdn.com/soa/gb/item/6862458881155723264/16548/goods_thumb_220-v4/68a65e39bd50.jpg",
       "category": "Industrial",
@@ -1215,15 +1214,6 @@
       "discount": "50%"
     },
     {
-      "image": "Baseus 100W USB C To USB Type C Cable USBC PD Fast",
-      "category": "Phones",
-      "price": "2",
-      "description": "Baseus 100W USB C To USB Type C Cable USBC PD Fast",
-      "id": 16,
-      "stars": "4.5/5",
-      "discount": "50%"
-    },
-    {
       "image": "https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16424/goods_thumb_220-v4/9cbfc105f812.jpg",
       "category": "Phones",
       "price": "6",
@@ -1618,7 +1608,7 @@
     {
       "image": "https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16509/goods_thumb_220-v3/0cd2369f8f5d.jpg",
       "category": "Appliance",
-      "price": 33,
+      "price": "35",
       "description": "Xiaomi Hanging Neck Fan Portable Cooling Fan USB Leafless 360 Degree Neckband Fan 78 Surround Air Outlets 4000Mah Rechargeable Xiaomi Hanging Neck Fan Portable Cooling Fan USB",
       "id": 5
     },
@@ -1921,7 +1911,7 @@
       "category": "Appliance",
       "price": 12,
       "description": "Fashion Smart Digital Watch for Men Women",
-      "id":48 
+      "id": 48
     }
   ],
   "superdeals": [
@@ -1972,7 +1962,6 @@
     }
   ],
   "smart_Watch": [
-
     {
       "image": "https://www.gearbest.com/u_file/2212/15/products/df315d0c55.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
       "category": "smart_Watch",
