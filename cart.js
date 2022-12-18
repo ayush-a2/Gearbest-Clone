@@ -4,18 +4,18 @@ document.getElementById("footer").innerHTML=footer();
 
 document.getElementById("navbar").innerHTML=navbar();
 
-let cart_items = JSON.parse(localStorage.getItem("cart_items")) || [];
+let cart_items = JSON.parse(localStorage.getItem("cart_items"));
 
 //localStorage.setItem("cart_items", JSON.stringify(cart_items)); 
 
 
 let sum = (price) => {
   
-  var amount=0;
-  amount+=(+price)
-  //let amt = document.getElementById("total_bill");
-  console.log(typeof(amount));
-    console.log(amount);
+  let amount=0;
+  // amount+=(+price)
+  // //let amt = document.getElementById("total_bill");
+  // console.log(typeof(amount));
+  //   console.log(amount);
 }
 
 
@@ -32,9 +32,9 @@ const item_cart = (data) => {
     table.innerHTML = null
 
     data.forEach((el) =>{
-        let row_store = document.createElement("tr");
-        row_store.id = "row_store";
-        row_store.innerHTML = el.store;
+        // let row_store = document.createElement("tr");
+        // row_store.id = "row_store";
+        // row_store.innerHTML = el.store;
 
 
         let row_details = document.createElement("tr");
@@ -56,19 +56,19 @@ const item_cart = (data) => {
                 name.innerHTML = el.name;
                 name.className = "item_name";
 
-                let brand = document.createElement("p");
-                brand.innerHTML = `Brand: ${el.brand}`;
+                // let brand = document.createElement("p");
+                // brand.innerHTML = `Brand: ${el.brand}`;
 
-                let location = document.createElement("p");
-                location.innerHTML = `Shiping from: ${el.location}`;
+                // let location = document.createElement("p");
+                // location.innerHTML = `Shiping from: ${el.location}`;
 
-                let model = document.createElement("p");
-                model.innerHTML = el.model;
+                // let model = document.createElement("p");
+                // model.innerHTML = el.model;
 
-              div.append(name, brand, location, model);
+              div.append(name);
               td_detail.append(div);
               
-          //  row_details.append(td_detail)
+           row_details.append(td_detail)
 
         // price of the product
 
@@ -150,7 +150,7 @@ const item_cart = (data) => {
 
         row_details.append(td_image, div, td_price, td_chng, td_total, td_operations)
 
-        table.append(row_store, row_details);
+        table.append( row_details);
 
         //div.append(image, name, brand, location, store, model, price, chng_div);
 
@@ -172,3 +172,14 @@ const item_cart = (data) => {
       payoptions.style.display = "none"
     }
 
+
+    let check_btn = document.getElementById("check_btn");
+    check_btn.onclick = () => {
+      window.location.href = "./newcheckout.html"
+    }
+
+
+    let shop = document.getElementById("shop");
+    shop.onclick = () => {
+      window.location.href = "index.html";
+    }
