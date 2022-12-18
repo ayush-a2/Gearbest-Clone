@@ -198,7 +198,7 @@ const recommended = (data) => {
 
 
 let cart_items = JSON.parse(localStorage.getItem("cart_items")) || [];
-const cartFunction = (image, price,id,description) => {
+const cartFunction = (id,description,image,price) => {
     let obj = {
         name: description,
         price: price,
