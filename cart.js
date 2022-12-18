@@ -6,9 +6,23 @@ document.getElementById("navbar").innerHTML = navbar();
 
 let cart_items = JSON.parse(localStorage.getItem("cart_items")) || [];
 let sum = 0;
+
+let cart_items = JSON.parse(localStorage.getItem("cart_items"));
+
+
 //localStorage.setItem("cart_items", JSON.stringify(cart_items)); 
 for (let i = 0; i < cart_items.length; i++) {
   sum += +(cart_items[i].price)
+
+
+
+let sum = (price) => {
+  
+  let amount=0;
+  // amount+=(+price)
+  // //let amt = document.getElementById("total_bill");
+  // console.log(typeof(amount));
+  //   console.log(amount);
 
 }
 // console.log(sum);
@@ -43,8 +57,15 @@ const item_cart = (data) => {
     // row_store.innerHTML = el.store;
 
 
+
     let row_details = document.createElement("tr");
     row_details.id = "item_detail"
+
+    data.forEach((el) =>{
+        // let row_store = document.createElement("tr");
+        // row_store.id = "row_store";
+        // row_store.innerHTML = el.store;
+
 
     // image 
     let td_image = document.createElement("img");
@@ -68,6 +89,7 @@ const item_cart = (data) => {
     // let location = document.createElement("p");
     // location.innerHTML = `Shiping from: ${el.location}`;
 
+
     // let model = document.createElement("p");
     // model.innerHTML = el.model;
 
@@ -77,6 +99,21 @@ const item_cart = (data) => {
     //  row_details.append(td_detail)
 
     // price of the product
+
+                // let brand = document.createElement("p");
+                // brand.innerHTML = `Brand: ${el.brand}`;
+
+                // let location = document.createElement("p");
+                // location.innerHTML = `Shiping from: ${el.location}`;
+
+                // let model = document.createElement("p");
+                // model.innerHTML = el.model;
+
+              div.append(name);
+              td_detail.append(div);
+              
+           row_details.append(td_detail)
+
 
     let td_price = document.createElement("td");
     let price = document.createElement("h3")
@@ -141,8 +178,12 @@ const item_cart = (data) => {
     let edit = document.createElement("h3");
     edit.innerHTML = "Edit";
 
+
     let add_fav = document.createElement("h3");
     add_fav.innerHTML = "Favorites";
+
+        table.append( row_details);
+
 
     let delete_btn = document.createElement("h3");
     delete_btn.innerHTML = "Delete";
@@ -178,7 +219,21 @@ if (cart_items.length > 0) {
   payoptions.style.display = "none"
 }
 
+
 let check_btn = document.getElementById('check_btn');
 check_btn.onclick = () => {
   window.location.href = './newcheckout.html';
 }
+
+
+    let check_btn = document.getElementById("check_btn");
+    check_btn.onclick = () => {
+      window.location.href = "./newcheckout.html"
+    }
+
+
+    let shop = document.getElementById("shop");
+    shop.onclick = () => {
+      window.location.href = "index.html";
+    }
+
