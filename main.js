@@ -64,7 +64,7 @@ const collection_function = (data) => {
             cartButton.innerText = 'Added to Cart';
             image_div.style.backgroundColor = '#ffe3e3';
             click++;
-            cartFunction(id);
+            cartFunction(id,description,image,price);
             console.log(click)
             if (click > 1) {
                 alert('Product already added to cart');
@@ -117,7 +117,7 @@ const superdeals_function = (data) => {
             cartButton.innerText = 'Added to Cart';
             image_div.style.backgroundColor = '#ffe3e3';
             click++;
-            cartFunction(id);
+            cartFunction(id,description,image,price);
             console.log(click)
             if (click > 1) {
                 alert('Product already added to cart');
@@ -171,7 +171,7 @@ const recommended = (data) => {
             cartButton.innerText = 'Added to Cart';
             image_div.style.backgroundColor = '#ffe3e3';
             click++;
-            cartFunction(id);
+            cartFunction(id,description,image,price);
             console.log(click)
             if (click > 1) {
                 alert('Product already added to cart');
@@ -197,11 +197,17 @@ const recommended = (data) => {
 
 
 
-
-let cartArr = [];
-const cartFunction = (id) => {
-    cartArr.push(id);
-    localStorage.setItem('cartID', cartArr);
+let cart_items = JSON.parse(localStorage.getItem("cart_items")) || [];
+const cartFunction = (image, price,id,description) => {
+    let obj = {
+        name: description,
+        price: +price,
+        image: image,
+        id: id
+    }
+    
+    localStorage.setItem("cart_items", JSON.stringify(obj));
+    console.log(obj)
 }
 
 

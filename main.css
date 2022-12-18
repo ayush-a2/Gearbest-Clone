@@ -14,7 +14,7 @@ body {
     border-radius: 20px;
     background-color: #0069FF;
     color: white;
-    border: none;
+    border: 5px solid #0069FF;
 }
 .dark{
     background-color: rgb(37, 37, 37);
