@@ -201,7 +201,7 @@ let cart_items = JSON.parse(localStorage.getItem("cart_items")) || [];
 const cartFunction = (image, price,id,description) => {
     let obj = {
         name: description,
-        price: +price,
+        price: price,
         image: image,
         id: id
     }
