@@ -1,3 +1,9 @@
+import { navbar } from "./components/navbar.js";
+import { footer } from "./Footer/footer.js";
+document.getElementById("footer").innerHTML=footer();
+
+document.getElementById("navbar").innerHTML=navbar();
+
 let cart_items = JSON.parse(localStorage.getItem("cart_items")) || [];
 
 //localStorage.setItem("cart_items", JSON.stringify(cart_items)); 
