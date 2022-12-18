@@ -21,6 +21,7 @@ let appendData = (data,page)=>{
         div.className = "products";
 
         let img = document.createElement("img");
+        img.id="img"
         img.src = el.image;
 
         let des = document.createElement("h4");
@@ -31,7 +32,21 @@ let appendData = (data,page)=>{
         price.innerText = el.price;
         price.className="price"
 
-        div.append(img,des,price);
+        let cartButton= document.createElement('button');
+        cartButton.id="btn";
+        cartButton.innerText='Add to Cart';
+        let click=0;
+        cartButton.addEventListener('click',()=>{
+            cartButton.innerText='Added to Cart';
+            click++;
+            cartFunction(id);
+            console.log(click)
+            if(click>1){
+                alert('Product already added to cart');
+            };
+        })
+
+        div.append(img,des,price,cartButton);
 
         cont.append(div);
 
@@ -60,3 +75,9 @@ let showButtons = (page)=> {
 }
 
 showButtons();
+
+let cartArr=[];
+const cartFunction = (id) => {
+    cartArr.push(id);
+    sessionStorage.setItem('cartID', cartArr);
+}
