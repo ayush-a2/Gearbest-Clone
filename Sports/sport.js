@@ -7,6 +7,7 @@ const url ="http://localhost:3000/Sports"
 let getData = async (page)=>{
     let res = await fetch (url);
     let data = await res.json();
+    localStorage.setItem("category",JSON.stringify(data));
     console.log(data);
     appendData(data,page);
 }
