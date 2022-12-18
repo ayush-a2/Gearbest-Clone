@@ -605,11 +605,7 @@
     }
   ],
   "Industrial": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
+ 
     {
       "image": "https://gloimg.gbtcdn.com/soa/gb/item/6862458881155723264/16548/goods_thumb_220-v4/68a65e39bd50.jpg",
       "category": "Industrial",
@@ -1008,6 +1004,87 @@
       "id": 46,
       "stars": "4.5/5",
       "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16097/goods_thumb_220-v1/5e1bc6c3bed2.jpg",
+      "category": "Industrial",
+      "price": "824",
+      "description": "QIDI TECH S-Box Resin 3D Printer UV LCD Printer 10.1",
+      "id": 47,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16064/goods_thumb_220-v1/45a320a7e5cd.jpg",
+      "category": "Industrial",
+      "price": "119",
+      "description": "NEJE KZ 10W 450nm Laser Engraving Machine Smart Blue",
+      "id": 48,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/15928/goods_thumb_220-v1/4d20f19e8be2.jpg",
+      "category": "Industrial",
+      "price": "399",
+      "description": "Creality 3D Ender-3 V2 3D Printer Kit All-Metal Integrated Structure Silent Mainboard New UI Display Screen Resume Printing Creality 3D Ender-3 V2 3D Printer Kit All-Metal Integrated",
+      "id": 49,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6862458881155723264/16456/goods_thumb_220-v5/f85b35e65ebe.jpg",
+      "category": "Industrial",
+      "price": "419",
+      "description": "ORTUR Laser Master 2 Pro-S2-LF 24V Laser Engraver Laser",
+      "id": 50,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/15988/goods_thumb_220-v1/8947b94356a2.jpg",
+      "category": "Industrial",
+      "price": "336",
+      "description": "Multicolor I3 3D Printer MK3 MK3S MMU Five Colors Print",
+      "id": 51,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6904007303549349888/16474/goods_thumb_220-v1/394534e30d4e.jpg",
+      "category": "Industrial",
+      "price": "1599",
+      "description": "QIDI TECH X-MAX Large Size Intelligent Industrial Grade 3D",
+      "id": 52,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6771730315905003520/16399/goods_thumb_220-v1/d7384018318f.jpg",
+      "category": "Industrial",
+      "price": "27",
+      "description": "NVPONE 3D Pen DIY Pen 3D Printer Pen Drawing Pens 3d",
+      "id": 53,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16097/goods_thumb_220-v1/e4d3276037df.jpg",
+      "category": "Industrial",
+      "price": "44",
+      "description": "Original Factory Supply Creality 3D Newest Upgrade",
+      "id": 54,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878402251153666048/16637/goods_thumb_220-v1/ad74c474b9fd.jpg",
+      "category": "Industrial",
+      "price": "169",
+      "description": "S22+Ultra Smartphone 7.3 inch 16GB+1TB Unlocked",
+      "id": 55,
+      "stars": "4.5/5",
+      "discount": "50%"
     }
   ],
   "Phones": [
@@ -1224,6 +1301,96 @@
       "price": "68",
       "description": "62% OFF i12 Pro Max Global Version Cellphone Celulares 12GB RAM 512GB ROM Smartphone 6.7inch U Screen Android 10.0 Mobilephone Telephone i12 Pro Max Global Version Cellphone Celulares 12GB",
       "id": 25,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16473/goods_thumb_220-v1/70eef45cff80.jpg",
+      "category": "Phones",
+      "price": "106",
+      "description": "Mobile Phone Nova8 Pro 12GB+512GB 7.1Inch Face ID",
+      "id": 26,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16485/goods_thumb_220-v1/b77ce6885375.jpg",
+      "category": "Phones",
+      "price": "120",
+      "description": "50% OFF New M4PRO 6.7 Inch Global Version 256GB/512GB 6800mAh 16MP+32MP Smartphone Fingerprint Face ID Deca Core Mobile Phones MTK6889 New M4PRO 6.7 Inch Global Version 256GB/512GB",
+      "id": 27,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16563/goods_thumb_220-v1/e254e052fe64.jpg",
+      "category": "Phones",
+      "price": "149",
+      "description": " 50% OFF Global Version MI 12 Ultra 7.3 inch Smartphone Cell Phone Unlocked 2022 5G Mobile Phones Cheap Android M12 Telephone Global Version MI 12 Ultra 7.3 inch Smartphone Cell Phone",
+      "id": 28,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6866325577285169152/16414/goods_thumb_220-v1/76cb26d2019a.jpg",
+      "category": "Phones",
+      "price": "2",
+      "description": "USLION Magnetic USB Cable For iPhone 12 11 Xiaomi",
+      "id": 29,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878402251153666048/16595/goods_thumb_220-v1/40d50dca5b9b.jpg",
+      "category": "Phones",
+      "price": "68",
+      "description": "62% OFF i12 Pro Max Global Version Cellphone Celulares 12GB RAM 512GB ROM Smartphone 6.7inch U Screen Android 10.0 Mobilephone Telephone i12 Pro Max Global Version Cellphone Celulares 12GB",
+      "id": 30,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16485/goods_thumb_220-v1/b77ce6885375.jpg",
+      "category": "Phones",
+      "price": "120",
+      "description": "50% OFF New M4PRO 6.7 Inch Global Version 256GB/512GB 6800mAh 16MP+32MP Smartphone Fingerprint Face ID Deca Core Mobile Phones MTK6889 New M4PRO 6.7 Inch Global Version 256GB/512GB",
+      "id": 31,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16563/goods_thumb_220-v1/e254e052fe64.jpg",
+      "category": "Phones",
+      "price": "149",
+      "description": " 50% OFF Global Version MI 12 Ultra 7.3 inch Smartphone Cell Phone Unlocked 2022 5G Mobile Phones Cheap Android M12 Telephone Global Version MI 12 Ultra 7.3 inch Smartphone Cell Phone",
+      "id": 32,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6866325577285169152/16414/goods_thumb_220-v1/76cb26d2019a.jpg",
+      "category": "Phones",
+      "price": "2",
+      "description": "USLION Magnetic USB Cable For iPhone 12 11 Xiaomi",
+      "id": 33,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878402251153666048/16595/goods_thumb_220-v1/40d50dca5b9b.jpg",
+      "category": "Phones",
+      "price": "68",
+      "description": "62% OFF i12 Pro Max Global Version Cellphone Celulares 12GB RAM 512GB ROM Smartphone 6.7inch U Screen Android 10.0 Mobilephone Telephone i12 Pro Max Global Version Cellphone Celulares 12GB",
+      "id": 34,
+      "stars": "4.5/5",
+      "discount": "50%"
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878402251153666048/16595/goods_thumb_220-v1/40d50dca5b9b.jpg",
+      "category": "Phones",
+      "price": "68",
+      "description": "62% OFF i12 Pro Max Global Version Cellphone Celulares 12GB RAM 512GB ROM Smartphone 6.7inch U Screen Android 10.0 Mobilephone Telephone i12 Pro Max Global Version Cellphone Celulares 12GB",
+      "id": 35,
       "stars": "4.5/5",
       "discount": "50%"
     }
@@ -1458,7 +1625,7 @@
     {
       "image": "https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16494/goods_thumb_220-v3/30ff8295bfd7.jpg",
       "category": "Appliance",
-      "price": null,
+      "price": 50,
       "description": "https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16494/goods_thumb_220-v3/30ff8295bfd7.jpg",
       "id": 6
     },
@@ -1692,6 +1859,69 @@
       "price": 12,
       "description": "Fashion Smart Digital Watch for Men Women",
       "id": 39
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/15943/goods_thumb_220-v1/0b7860cacfbd.jpg",
+      "category": "Appliance",
+      "price": 359,
+      "description": "Dreame V11 Handheld Wireless Vacuum Cleaner",
+      "id": 40
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6878391336429613056/16476/goods_thumb_220-v1/afb469094423.jpg",
+      "category": "Appliance",
+      "price": 48,
+      "description": "35% OFF Xiaomi Pinlo Mini Multifunctional Sandwich Machine Kitchen Breakfast Bread Maker Frying Egg Toaster Electric Ovens Hot Plates Bread Pancake Waffle Xiaomi Pinlo Mini Multifunctional Sandwich",
+      "id": 41
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16069/goods_thumb_220-v3/934fc8318fa7.jpg",
+      "category": "Appliance",
+      "price": 189,
+      "description": "ILIFE V5sPro Robot Vacuum Cleaner Vacuum Wet Mopping",
+      "id": 42
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16037/goods_thumb_220-v1/050ec3d53622.jpg",
+      "category": "Appliance",
+      "price": 968,
+      "description": "2020 Ecovacs Deebot T8 AIVI + Vacuum Robot Cleaner with",
+      "id": 43
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/15893/goods_thumb_220-v3/32bd2ebdfe07.jpg",
+      "category": "Appliance",
+      "price": 39,
+      "description": "220V 110V Household Food Vacuum Sealer Packaging Machine Film Sealer Vacuum Packer 220V 110V Household Food Vacuum Sealer Packaging",
+      "id": 44
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6880475736935952384/16656/goods_thumb_220-v5/baea2e7628f1.jpg",
+      "category": "Appliance",
+      "price": 209,
+      "description": "XIAOMI SWDK Smart Mopping Robot ZDG300S With WIFI APP",
+      "id": 45
+    },
+    {
+      "image": "https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16064/goods_thumb_220-v1/98f0e06c157c.jpg",
+      "category": "Appliance",
+      "price": 99,
+      "description": "Electric 3 in 1 Household Breakfast Machine Mini Bread",
+      "id": 46
+    },
+    {
+      "image": "https://www.gearbest.com/u_file/2212/15/products/63f4a982c9.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
+      "category": "Appliance",
+      "price": 58,
+      "description": "LIGE New 2021 Smart Watch Men Heart Rate",
+      "id": 47
+    },
+    {
+      "image": "https://www.gearbest.com/u_file/2212/15/products/a890332add.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
+      "category": "Appliance",
+      "price": 12,
+      "description": "Fashion Smart Digital Watch for Men Women",
+      "id":48 
     }
   ],
   "superdeals": [
@@ -1742,11 +1972,7 @@
     }
   ],
   "smart_Watch": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
+
     {
       "image": "https://www.gearbest.com/u_file/2212/15/products/df315d0c55.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
       "category": "smart_Watch",
@@ -1928,6 +2154,69 @@
       "price": 78,
       "description": "Global version Xiaomi Redmi Watch 2 lite",
       "id": 27
+    },
+    {
+      "image": "https://www.gearbest.com/u_file/2212/15/products/df428d8a27.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
+      "category": "smart_Watch",
+      "price": 118,
+      "description": "Original Amazfit Stratos Smartwatch",
+      "id": 28
+    },
+    {
+      "image": "https://www.gearbest.com/u_file/2212/15/products/a01c9d19c9.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
+      "category": "smart_Watch",
+      "price": 118,
+      "description": "Xiaomi Mitu Children&39s Phone",
+      "id": 29
+    },
+    {
+      "image": "https://www.gearbest.com/u_file/2212/15/products/46917df9c9.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
+      "category": "smart_Watch",
+      "price": 36,
+      "description": "New Amazfit T Rex 2 Smartwatch TRex 2",
+      "id": 30
+    },
+    {
+      "image": "https://www.gearbest.com/u_file/2212/15/products/63ec902e56.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
+      "category": "smart_Watch",
+      "price": 148,
+      "description": "NEW Item HUAWEI WATCH FIT mini",
+      "id": 31
+    },
+    {
+      "image": "https://www.gearbest.com/u_file/2212/15/products/9b202ecd06.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
+      "category": "smart_Watch",
+      "price": 17,
+      "description": "17",
+      "id": 32
+    },
+    {
+      "image": "https://www.gearbest.com/u_file/2212/15/products/8ba569eab9.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
+      "category": "smart_Watch",
+      "price": 175,
+      "description": "Global Version Maimo 70mai Saphir Watch",
+      "id": 33
+    },
+    {
+      "image": "https://www.gearbest.com/u_file/2212/15/products/1a3a5c8c81.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
+      "category": "smart_Watch",
+      "price": 48,
+      "description": "COLMI P8 Mix 1.69 Inch Smart Watch Men",
+      "id": 34
+    },
+    {
+      "image": "https://www.gearbest.com/u_file/2212/15/products/f8708dbf86.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
+      "category": "smart_Watch",
+      "price": 57,
+      "description": "E1-2 Smart Watch Men Bluetooth Call Custom",
+      "id": 35
+    },
+    {
+      "image": "https://www.gearbest.com/u_file/2212/15/products/7127bf18ba.jpg?x-oss-process=image/format,webp/resize,m_lfit,h_0,w_500",
+      "category": "smart_Watch",
+      "price": 78,
+      "description": "Global version Xiaomi Redmi Watch 2 lite",
+      "id": 36
     }
   ]
 }
