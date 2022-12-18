@@ -1,9 +1,15 @@
+
+import { navbar } from "../components/navbar.js";
+
+document.getElementById("navbar").innerHTML=navbar();
+
 import {footer} from '../Footer/footer.js';
 
 document.getElementById("nav2");
 
 let fot = document.getElementById("footer");
 fot.innerHTML = footer();
+
 
 
 const url ="http://localhost:3000/Phones"
