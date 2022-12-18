@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product-Page</title>
+    <link rel="stylesheet" href="./styles/navbar.css" />
     <script
       src="https://kit.fontawesome.com/b1dda78bf2.js"
       crossorigin="anonymous"
@@ -12,10 +13,13 @@
     <link rel="stylesheet" href="./styles/productDetails.css">
 </head>
 <body>
+    <div id="navbar">
+
+    </div>
     <!-- name -->
     <div id="main_container">
         <div class="name_of_product">
-            <p class="prouctName">name of product</p>
+            <p class="prouctName" id="name"></p>
         </div>
         <!-- image -->
         <!-- 
@@ -26,12 +30,12 @@
             cartBtn
             buyNowBtn
          -->
-        <div class="images_of_product">
-            <img class="productImage" src="https://m.media-amazon.com/images/I/61VbKHdE0rL._AC_SL1500_.jpg" alt="">
+        <div class="images_of_product" id="img">
+            
         </div>
         <!-- price -->
         <div class="price_of_product">
-            <p class="mrp">M.R.P.<h1 class="productPrice">23443.00</h1></p>
+            <p class="mrp">M.R.P.<h1 class="productPrice" id="price"></h1></p>
         </div>
         <!-- instock / out of stock -->
         <div class="stock_valid">
@@ -76,4 +80,5 @@ add_to_buy
     
 </body>
 </html>
-<script src="./scripts/productDetails.js"></script>
+<script type="module" src="./scripts/productDetails.js"></script>
+<script src="./scripts/navbar.js"></script>
