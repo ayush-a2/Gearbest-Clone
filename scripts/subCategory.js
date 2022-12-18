@@ -26,18 +26,7 @@ async function fetchReq() {
 }
 fetchReq();
 
-/*
-<div class="card">
-     <img src="https://gloimg.gbtcdn.com/soa/gb/item/6870745450383863808/16669/goods_thumb_220-v1/146b80fcd97e.jpg" alt="" class="image">
-     <p class="disc_of_product">
-         Tronxy 3D Printer XY-2 PRO 2E Upgrade High Precision Dual
-     </p>
-     <p class="prize_of_product">
-         299.00
-     </p>
-     <p class="sale_type">flash sale</p>
-</div>
-*/
+
 function renderDom(data) {
   let container = getById("append_container");
   container.innerHTML = "";
