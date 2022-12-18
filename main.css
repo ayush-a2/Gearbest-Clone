@@ -1,16 +1,16 @@
 body {
+    /* width: 95%; */
+    margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #collection {
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     text-align: center
 }
-
-;
 
 #collection>div {
     display: block;
@@ -37,19 +37,42 @@ body {
     border-radius: 5px;
 }
 
-
-#superdeals {
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    text-align: center
+.perCardDiv > h3{
+    width: 220px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
 }
-#superdeals>div {
+
+#superdeals{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+#superdeals >div {
     display: block;
     width: 100%;
-
 }
+#recommended > div{
+    display: block;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.perCardDiv > h3{
+    width: 220px;
+    margin-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+
 
 .rating_card{
     display: block;
@@ -58,6 +81,8 @@ body {
     text-align: center;
     border-radius: 10px;
     color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .orderButton{
@@ -72,6 +97,8 @@ body {
     border-radius: 5px;
     color: white;
     font-size: larger;
+    margin-top: 15px;
+    margin-bottom: 15px;
     transition: transform .5s;
 
 }
