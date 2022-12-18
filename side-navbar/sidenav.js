@@ -15,5 +15,3 @@ let s5 = document.getElementById("sub5");
 let s6 = document.getElementById("sub6");
 let s7 = document.getElementById("sub7");
 let s8 = document.getElementById("sub8");
-
-
