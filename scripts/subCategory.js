@@ -9,6 +9,9 @@ class
 image
 disc_of_product
 */
+import { navbar } from "../components/navbar.js";
+
+document.getElementById("navbar").innerHTML=navbar();
 
 let phone_url = "http://localhost:3000/Phones";
 
@@ -26,15 +29,64 @@ async function fetchReq() {
 }
 fetchReq();
 
+/*
 
-function renderDom(data) {
-  let container = getById("append_container");
-  container.innerHTML = "";
-  let all_cards = data.map((el) => {
+
+  // container.innerHTML = all_cards.join(' ');
+
+let all_cards = data.map((el) => {
     return `<div class="card" data-id="${el.id}"><img src="${el.image}" alt="" class="image"><p class="disc_of_product">${el.description}</p><p class="prize_of_product">${"₹"+el.price}</p><p class="prize_of_product">${el.stars}</p></div>`
   });
 
-  container.innerHTML = all_cards.join(' ');
+  // container.innerHTML = all_cards.join(' ');
+  
+
+*/
+function renderDom(data) {
+  let container = getById("append_container");
+  container.innerHTML = "";
+  data.forEach((el,i) => {
+    let div = createElement("div");
+    div.className="card";
+    let image = createElement("img");
+    image.className="image";
+    image.src=el.image;
+    image.onclick=()=>{
+      gotoDetails(el)
+    }
+
+    let title = createElement("p");
+    title.className="disc_of_product";
+    title.innerText=el.description;
+    title.onclick=()=>{
+      gotoDetails(el)
+    }
+    
+    let price = createElement("p");
+    price.className="prize_of_product";
+    price.innerText="₹"+el.price;
+    price.onclick=()=>{
+      gotoDetails(el)
+    }
+    
+    let rate = createElement("p");
+    rate.className="prize_of_product";
+    rate.innerText=el.stars;
+
+    div.append(image,title,price,rate);
+    container.append(div);
+  });
+  
+}
+
+function gotoDetails(el){
+  localStorage.setItem("product",JSON.stringify(el));
+console.log(el);
+}
+
+
+function createElement(tag){
+  return document.createElement(tag)
 }
 function renderCategory(data){
     let value = data[0].category;
@@ -47,10 +99,6 @@ function renderCategory(data){
 function getById(tag) {
   return document.getElementById(tag);
 }
-let  image_click = document.querySelector(".image");
-image_click.addEventListener("click",(event)=>{
-    console.log(event);
-})
 
 function reidirectedToDetailsPage(){
     // window.location.href="";
@@ -66,5 +114,6 @@ window.addEventListener("load", function () {
   highTlow.onclick = function () {
     console.log(highTlow.value);
   };
+ 
 
 });
