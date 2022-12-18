@@ -17,6 +17,7 @@ body {
 
 .right_side_container {
   width: 100%;
+  padding: 80px;
 }
 /* 
 id-append_container
@@ -34,20 +35,33 @@ sale_type
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: max-content;
-  gap: 20px;
-  padding: 20px;
+  gap: 40px;
+  padding: 40px;
 }
-img {
-  width: 100%;
+img.image {
+  width: 90%;
+  margin: 5%;
+  box-sizing: border-box;
+}
+.card{
+  box-sizing: border-box;
+  padding: 5px;
 }
 .prize_of_product {
-  color: red;
+  color: 
+  #ff6013;
 }
 .disc_of_product {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   word-wrap: break-word;
   word-break: break-word;
+}
+.button_color{
+  background-Color: #db4a3c;
+  color: aliceblue;
+  border: 0;
+  padding: 4px 8px;
 }
 /* 
 sortMethods
@@ -66,6 +80,10 @@ small_font
 @media screen and (max-width: 550px) {
   #append_container {
     grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  padding: 20px;
+
+
   }
   body {
     font-size: smaller;
@@ -79,6 +97,10 @@ small_font
 @media All and (max-width: 1000px) and (min-width: 551px) {
   #append_container {
     grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+
+
   }
   body {
     font-size: small;

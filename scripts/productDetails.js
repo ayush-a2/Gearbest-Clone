@@ -20,3 +20,7 @@ window.addEventListener('load',function(){
     }
 
 });
+/*
+add_to_cart
+add_to_buy
+*/
