@@ -47,6 +47,15 @@ function renderCategory(data){
 function getById(tag) {
   return document.getElementById(tag);
 }
+let  image_click = document.querySelector(".image");
+image_click.addEventListener("click",(event)=>{
+    console.log(event);
+})
+
+function reidirectedToDetailsPage(){
+    // window.location.href="";
+    console.log("reidirectedToDetailsPage");
+}
 
 window.addEventListener("load", function () {
   let lowThigh = getById("low_to_high");
@@ -57,4 +66,5 @@ window.addEventListener("load", function () {
   highTlow.onclick = function () {
     console.log(highTlow.value);
   };
+
 });
