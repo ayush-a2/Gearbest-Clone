@@ -1,3 +1,8 @@
+import { navbar } from "../components/navbar.js";
+
+document.getElementById("navbar").innerHTML=navbar();
+
+
 const url ="http://localhost:3000/Phones"
 let getData = async (page)=>{
     let res = await fetch (url);
