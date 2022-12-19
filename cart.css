@@ -2,7 +2,6 @@ body {
     font-family: OpenSans, Arial, Helvetica, sans-serif;
     /* background-color: rgb(205, 205, 205); */
     background-color: rgb(245, 245, 245);
-    margin-top: 180px;
     box-sizing: border-box;
 
 }
@@ -20,6 +19,8 @@ body {
 #header_list>div {
     width: 80%;
     margin-left: 30px;
+    margin-top: 180px;
+
 
 }
 
