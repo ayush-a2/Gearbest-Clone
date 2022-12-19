@@ -7,7 +7,7 @@ document.getElementById("navbar").innerHTML = navbar();
 let cart_items = JSON.parse(localStorage.getItem("cart_items")) || [];
 let sum = 0;
 
-let cart_items = JSON.parse(localStorage.getItem("cart_items"));
+// let cart_items = JSON.parse(localStorage.getItem("cart_items"));
 
 
 
@@ -26,28 +26,15 @@ for (let i = 0; i < cart_items.length; i++) {
   sum += +(cart_items[i].price)
 
 
-
-let sum = (price) => {
-  
-  let amount=0;
-  // amount+=(+price)
-  // //let amt = document.getElementById("total_bill");
-  // console.log(typeof(amount));
-  //   console.log(amount);
-
 }
-// console.log(sum);
+
+  
+ 
+
 document.getElementById('final_total_bill').innerText = sum;
 document.getElementById('total_bill').innerHTML = sum;
 localStorage.setItem("total_sum", JSON.stringify(sum));
-// let sum = (price) => {
 
-//   var amount=0;
-//   amount+=(+price)
-//   //let amt = document.getElementById("total_bill");
-//   console.log(typeof(amount));
-//     console.log(amount);
-// }
 
 
 
@@ -187,16 +174,16 @@ const item_cart = (data) => {
   table.innerHTML = null
 
   data.forEach((el) => {
-    // let row_store = document.createElement("tr");
-    // row_store.id = "row_store";
-    // row_store.innerHTML = el.store;
+    let row_store = document.createElement("tr");
+    row_store.id = "row_store";
+    row_store.innerHTML = el.store;
 
 
 
     let row_details = document.createElement("tr");
     row_details.id = "item_detail"
 
-    data.forEach((el) =>{
+    // data.forEach((el) =>{
         // let row_store = document.createElement("tr");
         // row_store.id = "row_store";
         // row_store.innerHTML = el.store;
@@ -278,7 +265,7 @@ const item_cart = (data) => {
 
       }
     })
-
+  
     let chng_btn = document.createElement("button");
     chng_btn.innerHTML = quat
 
@@ -292,7 +279,7 @@ const item_cart = (data) => {
       td_total.append(total);
 
     })
-
+  
     chng_div.append(sub_btn, chng_btn, add_btn);
 
     td_chng.append(chng_div)
@@ -349,7 +336,7 @@ if (cart_items.length > 0) {
     delete_btn.addEventListener("click", () => {
       e.target.parentNode.remove();
     })
-
+  
     opertion_btn.append(edit, add_fav, delete_btn);
 
     td_operations.append(opertion_btn);
@@ -361,13 +348,13 @@ if (cart_items.length > 0) {
     //div.append(image, name, brand, location, store, model, price, chng_div);
 
     container.append(table);
-
+  
 
   })
 }
 
 
-if (cart_items.length > 0) {
+if(cart_items.length > 0) {
   item_cart(cart_items);
 
 } else {
@@ -385,10 +372,10 @@ check_btn.onclick = () => {
 }
 
 
-    let check_btn = document.getElementById("check_btn");
-    check_btn.onclick = () => {
-      window.location.href = "./newcheckout.html"
-    }
+    // let check_btn = document.getElementById("check_btn");
+    // check_btn.onclick = () => {
+    //   window.location.href = "./newcheckout.html"
+    // }
 
 
     let shop = document.getElementById("shop");
