@@ -30,10 +30,6 @@ const item_cart = (data) => {
     table.innerHTML = null
 
     data.forEach((el) =>{
-        // let row_store = document.createElement("tr");
-        // row_store.id = "row_store";
-        // row_store.innerHTML = el.store;
-
 
         let row_details = document.createElement("tr");
         row_details.id = "item_detail"
@@ -54,14 +50,6 @@ const item_cart = (data) => {
                 name.innerHTML = el.name;
                 name.className = "item_name";
 
-                // let brand = document.createElement("p");
-                // brand.innerHTML = `Brand: ${el.brand}`;
-
-                // let location = document.createElement("p");
-                // location.innerHTML = `Shiping from: ${el.location}`;
-
-                // let model = document.createElement("p");
-                // model.innerHTML = el.model;
 
               div.append(name);
               td_detail.append(div);
@@ -113,7 +101,7 @@ const item_cart = (data) => {
 
               })
       
-            chng_div.append(sub_btn, chng_btn, add_btn);
+        chng_div.append(sub_btn, chng_btn, add_btn);
         
         td_chng.append(chng_div)
         

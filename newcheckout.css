@@ -10,6 +10,8 @@
 body {
   margin: 0px;
   padding: 0px;
+  margin-top: 180px;
+  box-sizing: border-box;
 }
 /* #upper > img {
   width: 40%;

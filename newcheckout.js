@@ -1,3 +1,5 @@
+import { navbar } from "./components/navbar.js";
+document.getElementById("navbar").innerHTML=navbar();
 
 
 import {footer} from "./Footer/footer.js";
@@ -8,10 +10,11 @@ footer_id.innerHTML = footer();
 
 
 
-let data=100;
+let data=localStorage.getItem("total_sum");
+// console.log(data);
 
-document.getElementById("price").innerText = `${"$" + 100}`;
-document.getElementById("pric").innerText = `${"$" + 100}`;
+document.getElementById("price").innerText = `${  data}`;
+document.getElementById("pric").innerText = `${ data}`;
 
 let saveBtn = document.getElementById("saveBtn");
 
@@ -92,7 +95,7 @@ payCashBtn.onclick = () => {
 };
 
 if (data != 0) {
-  document.getElementById("actual").innerText = "$" + data.price;
+  document.getElementById("actual").innerText =  + data;
 }
 let apply_btn = document.getElementById("apl");
 
@@ -110,21 +113,21 @@ const discount = () => {
       (100 * 30) / 100
     )}`;
 
-    document.getElementById("actual").innerText = `$${Math.round(
+    document.getElementById("actual").innerText = `${Math.round(
       (100 * 70) / 100
     )}`;
   } else if (promo_code == "") {
     alert("Please enter Promo code");
   } else if (promo_code == "masai20") {
     document.getElementById("dscnt").innerText =
-      "$" + Math.round((100 * 20) / 100);
+       + Math.round((data * 20) / 100);
     document.getElementById("actual").innerText =
-      "$" + Math.round((100 * 80) / 100);
+      + Math.round((data * 80) / 100);
   } else {
     alert("Code is not eligible");
   }
 };
 
 
-document.getElementById("actual").innerText = "$" + 100;
+document.getElementById("actual").innerText = data;
     

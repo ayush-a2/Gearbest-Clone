@@ -1,4 +1,4 @@
-* {
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
   padding: 0;
@@ -63,6 +63,7 @@ img{
 #search_form {
   border-radius: 30px;
   display: flex;
+  height: 46px;
 }
 
 #serch_inbox {

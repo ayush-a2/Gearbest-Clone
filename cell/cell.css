@@ -1,9 +1,12 @@
 body{
     background-color: whitesmoke;
+    margin-top: 180px;
+    box-sizing: border-box;
 }
 #h1{
+
     margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 #container{
     display: grid;
