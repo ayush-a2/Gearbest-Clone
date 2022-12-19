@@ -11,7 +11,7 @@ let sum = 0
 for(var i=0;i<cart_items.length;i++){
   sum+= +cart_items[i].price
 }
-
+localStorage.setItem("total",JSON.stringify(sum));
 document.getElementById("total_bill").innerText= sum;
 document.getElementById("final_total_bill").innerText= sum;
 
