@@ -91,6 +91,10 @@ window.addEventListener("load", function () {
   burger.onclick=function(){
     burg()
   }
+  let cart_len = getById("cart_length");
+  let cart_items = JSON.parse(localStorage.getItem("cart_items")) || [];
+
+  cart_len.innerText=cart_items;
 });
 /*
 logo_click
