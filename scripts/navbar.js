@@ -85,7 +85,12 @@ window.addEventListener("load", function () {
   }
   let cart_len = getById("cart_length");
   let cart_items = JSON.parse(localStorage.getItem("cart_items")) || [];
+
   cart_len.innerText=cart_items.length;
+
+
+  cart_len.innerText=cart_items;
+
 });
 /*
 logo_click

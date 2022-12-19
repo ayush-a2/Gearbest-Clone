@@ -1,3 +1,13 @@
+import { navbar } from "./components/navbar.js";
+document.getElementById("navbar").innerHTML=navbar();
+
+
+import { footer } from "./Footer/footer.js";
+const footer_id = document.getElementById("footer");
+footer_id.innerHTML = footer();
+
+
+
 let btn = document.getElementById("btn");
 
 btn.onclick = () => {
