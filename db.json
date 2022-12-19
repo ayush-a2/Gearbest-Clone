@@ -562,6 +562,13 @@
       "password": "11111",
       "number": "7800302470",
       "id": 4
+    },
+    {
+      "firstname": "ritik",
+      "email": "ritik@gmail.com",
+      "password": "123456",
+      "number": "8979421433",
+      "id": 5
     }
   ],
   "collection": [

@@ -55,4 +55,5 @@ const customer_detail = async () => {
   });
 
   alert("Your Details is saved");
+  window.location.href="./index.html"
 };
