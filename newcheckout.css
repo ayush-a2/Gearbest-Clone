@@ -6,17 +6,22 @@
   text-align: center;
   margin-top: 10px;
 } */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 body {
   margin: 0px;
   padding: 0px;
-  margin-top: 180px;
+  
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* #upper > img {
   width: 40%;
   margin-top: 0px;
 } */
+
+
+#header{
+  margin-top: 200px;
+}
 #middle_1 {
   /* margin: 10px; */
   width: 80%;
