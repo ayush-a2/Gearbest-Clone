@@ -6,17 +6,15 @@ document.getElementById("navbar").innerHTML=navbar();
 
 let cart_items = JSON.parse(localStorage.getItem("cart_items"));
 
-//localStorage.setItem("cart_items", JSON.stringify(cart_items)); 
+let sum = 0
 
-
-let sum = (price) => {
-  
-  let amount=0;
-  // amount+=(+price)
-  // //let amt = document.getElementById("total_bill");
-  // console.log(typeof(amount));
-  //   console.log(amount);
+for(var i=0;i<cart_items.length;i++){
+  sum+= +cart_items[i].price
 }
+
+document.getElementById("total_bill").innerText= sum;
+document.getElementById("final_total_bill").innerText= sum;
+
 
 
 const item_cart = (data) => {
@@ -126,7 +124,7 @@ const item_cart = (data) => {
             total.innerHTML = sub_total;
           td_total.append(total);
 
-          sum(sub_total);
+         
         // operation buttons 
             let td_operations = document.createElement("td");
 
@@ -179,7 +177,7 @@ const item_cart = (data) => {
     }
 
 
-    let shop = document.getElementById("shop");
-    shop.onclick = () => {
-      window.location.href = "index.html";
+    let shop_btn = document.getElementById("shop");
+    shop_btn.onclick = () => {
+      window.location.href = "./index.html";
     }
