@@ -215,3 +215,5 @@ function pages(page){
     page_number.innerText=page;
 }
 pages(page)
+let name="Ayush"
+sessionStorage.setItem("user_name",JSON.stringify(name));

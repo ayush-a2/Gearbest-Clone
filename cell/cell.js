@@ -5,6 +5,8 @@ document.getElementById("navbar").innerHTML=navbar();
 
 import {footer} from '../Footer/footer.js';
 
+document.getElementById("nav2");
+
 let fot = document.getElementById("footer");
 fot.innerHTML = footer();
 
@@ -14,6 +16,7 @@ const url ="http://localhost:3000/Phones"
 let getData = async (page)=>{
     let res = await fetch (url);
     let data = await res.json();
+    localStorage.setItem("category",JSON.stringify(data));
     console.log(data);
     appendData(data,page);
 }

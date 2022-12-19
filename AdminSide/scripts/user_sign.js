@@ -107,7 +107,7 @@ function loginForm(data) {
       };
       alert("Login Sucessful");
       sessionStorage.setItem("user_login", JSON.stringify(dataToSend));
-      window.location.href = "index.html";
+      window.location.href = "./dashboard.html";
     } else {
       alert("Wrong Credentials");
     }

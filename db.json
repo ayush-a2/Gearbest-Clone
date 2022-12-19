@@ -550,11 +550,18 @@
     {
       "firstname": "Ayush",
       "email": "ayush8583@gmail.com",
-      "password": "12345",
+      "password": "00000",
       "number": "6307646469",
       "id": 3,
       "stars": "4.5/5",
       "discount": "50%"
+    },
+    {
+      "firstname": "Ritik ",
+      "email": "ritik8583@gmail.com",
+      "password": "11111",
+      "number": "7800302470",
+      "id": 4
     }
   ],
   "collection": [
@@ -1601,7 +1608,7 @@
     {
       "image": "https://gloimg.gbtcdn.com/soa/gb/store/6866331803104505856/16509/goods_thumb_220-v3/0cd2369f8f5d.jpg",
       "category": "Appliance",
-      "price": 33,
+      "price": "35",
       "description": "Xiaomi Hanging Neck Fan Portable Cooling Fan USB Leafless 360 Degree Neckband Fan 78 Surround Air Outlets 4000Mah Rechargeable Xiaomi Hanging Neck Fan Portable Cooling Fan USB",
       "id": 5
     },
