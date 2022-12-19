@@ -1,5 +1,4 @@
 let search_content = getById("search_content");
-
 let nav_links = getById("nav_links");
 let rsource = "http://localhost:3000/Phones";
 function burg() {
@@ -12,10 +11,6 @@ function burg() {
   });
 }
 // ?title=json-server
-
-
-
-
 let home_page = () => {
   window.location.href="index.html";
   console.log("Hii");
@@ -51,11 +46,9 @@ function debounce(func, delay) {
     func();
   }, delay);
 }
-
 function getById(tag) {
   return document.getElementById(tag);
 }
-
 window.addEventListener("load", function () {
   let logo_Onclick = getById("logo_click");
   logo_Onclick.onclick = () => {
@@ -77,7 +70,6 @@ window.addEventListener("load", function () {
   };
   let serch_inbox = getById("serch_inbox");
   serch_inbox.oninput = () => {
-    
     debounce(serch_inbox_fun, 1000);
     // serch_inbox_fun();
   };
@@ -91,6 +83,9 @@ window.addEventListener("load", function () {
   burger.onclick=function(){
     burg()
   }
+  let cart_len = getById("cart_length");
+  let cart_items = JSON.parse(localStorage.getItem("cart_items")) || [];
+  cart_len.innerText=cart_items.length;
 });
 /*
 logo_click

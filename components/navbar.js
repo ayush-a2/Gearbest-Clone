@@ -27,8 +27,9 @@ function navbar() {
           <i class="fa-solid fa-heart yellow margin_right"></i>Favorite
         </li>
         <li id="cart_btn">
-          <i class="fa-solid fa-cart-shopping yellow margin_right"></i>Cart
-        </li>
+      
+          <i class="fa-solid fa-cart-shopping yellow margin_right"></i>Cart  <span id="cart_length"></span>
+        </li> 
       </ul>
       <div class="humburgr" id="burger">
         <i class="fa-solid fa-bars"></i>
