@@ -1,5 +1,7 @@
 body{
   background-color: whitesmoke;
+  margin-top: 180px;
+    box-sizing: border-box;
 }
 #h1{
   margin-left: 25px;
@@ -105,3 +107,58 @@ body{
     margin-top: 30px;
   }
 }
+
+/* sidenavbar */
+*{
+  font-family: OpenSans-Bold, Arial, Helvetica, sans-serif;
+}
+
+#navbar-2{
+  margin-bottom: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background-color: wheat;
+  top: 165px;
+  overflow: hidden;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 60px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+#navbar-2>div{
+  /* border: 1px solid red; */
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+#navbar-2 div a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+#navbar-2 div div{
+  border: none;
+  padding-top: 40px;
+  padding-left: 20px;
+  border-radius: 10px;
+  padding-right: 100px;
+  padding-bottom: 40px;
+  background-color: #0069ff;
+  font-size: 16px;
+  color: white;
+  background-color:white ;
+  font-size: 19px;
+  color: black;
+  font-weight: bold;
+}
+
+.a:hover{
+  border-bottom: 5.5px solid #0069ff ;
+}
+

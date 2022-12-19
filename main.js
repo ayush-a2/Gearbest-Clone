@@ -165,6 +165,7 @@ const recommended = (data) => {
         ratings.innerText = stars;
         ratings.setAttribute('class', 'rating_card');
         let cartButton = document.createElement('button');
+        cartButton.className="add_cart";
         cartButton.innerText = 'Add to Cart';
         let click = 0;
         cartButton.addEventListener('click', () => {

@@ -89,6 +89,7 @@ window.addEventListener("load", function () {
   cart_len.innerText=cart_items.length;
 
 
+  cart_len.innerText=cart_items.length;
 
 });
 /*

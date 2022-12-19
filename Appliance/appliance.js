@@ -1,4 +1,6 @@
 import {footer} from '../Footer/footer.js';
+import { navbar } from "../components/navbar.js";
+document.getElementById("navbar").innerHTML=navbar();
 
 let fot = document.getElementById("footer");
 fot.innerHTML = footer();
