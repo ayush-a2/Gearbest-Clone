@@ -11,23 +11,15 @@ disc_of_product
 */
 import { navbar } from "../components/navbar.js";
 import { footer } from "../Footer/footer.js";
-document.getElementById("footer").innerHTML=footer();
+document.getElementById("footer").innerHTML = footer();
 
-document.getElementById("navbar").innerHTML=navbar();
+document.getElementById("navbar").innerHTML = navbar();
 
-let phone_url = "http://localhost:3000/Phones";
+// let phone_url = "http://localhost:3000/Phones";
 
-async function fetchReq() {
-  try {
-    let res = await fetch(phone_url);
-    let data = await res.json();
-    console.log(data);
-    renderCategory(data)
-
-    renderDom(data);
-  } catch (error) {
-    console.log("Bad request");
-  }
+function fetchReq() {
+  let data = JSON.parse(localStorage.getItem("category"));
+  renderDom(data);
 }
 fetchReq();
 
@@ -47,75 +39,78 @@ let all_cards = data.map((el) => {
 function renderDom(data) {
   let container = getById("append_container");
   container.innerHTML = "";
-  data.forEach((el,i) => {
+  data.forEach((el, i) => {
     let div = createElement("div");
-    div.className="card";
+    div.className = "card";
     let image = createElement("img");
-    image.className="image";
-    image.src=el.image;
-    image.onclick=()=>{
-      gotoDetails(el)
-    }
+    image.className = "image";
+    image.src = el.image;
+    image.onclick = () => {
+      gotoDetails(el);
+    };
 
     let title = createElement("p");
-    title.className="disc_of_product";
-    title.innerText=el.description;
-    title.onclick=()=>{
-      gotoDetails(el)
-    }
-    
-    let price = createElement("p");
-    price.className="prize_of_product";
-    price.innerText="₹"+el.price;
-    price.onclick=()=>{
-      gotoDetails(el)
-    }
-    
-    let rate = createElement("p");
-    rate.className="prize_of_product";
-    rate.innerText=el.stars;
+    title.className = "disc_of_product";
+    title.innerText = el.description;
+    title.onclick = () => {
+      gotoDetails(el);
+    };
 
-    div.append(image,title,price,rate);
+    let price = createElement("p");
+    price.className = "prize_of_product";
+    price.innerText = "₹" + el.price;
+    price.onclick = () => {
+      gotoDetails(el);
+    };
+
+    let rate = createElement("p");
+    rate.className = "prize_of_product";
+    rate.innerText = el.stars;
+
+    div.append(image, title, price, rate);
     container.append(div);
   });
-  
 }
 
-function gotoDetails(el){
-  localStorage.setItem("product",JSON.stringify(el));
-console.log(el);
+function gotoDetails(el) {
+  localStorage.setItem("product", JSON.stringify(el));
+  console.log(el);
 }
 
-
-function createElement(tag){
-  return document.createElement(tag)
+function createElement(tag) {
+  return document.createElement(tag);
 }
-function renderCategory(data){
-    let value = data[0].category;
-    let appenTitle = getById("product_type_category");
-    appenTitle.innerText=value;
+function renderCategory(data) {
+  let value = data[0].category;
+  let appenTitle = getById("product_type_category");
+  appenTitle.innerText = value;
 }
-
-
 
 function getById(tag) {
   return document.getElementById(tag);
 }
 
-function reidirectedToDetailsPage(){
-    // window.location.href="";
-    console.log("reidirectedToDetailsPage");
+function reidirectedToDetailsPage() {
+  // window.location.href="";
+  console.log("reidirectedToDetailsPage");
 }
 
 window.addEventListener("load", function () {
   let lowThigh = getById("low_to_high");
   lowThigh.onclick = function () {
-    console.log(lowThigh.value);
+    let data = JSON.parse(localStorage.getItem("category"));
+    let ndata = data.sort((a, b) => {
+      return a.price - b.price;
+    });
+    renderDom(ndata);
   };
   let highTlow = getById("high_to_low");
   highTlow.onclick = function () {
-    console.log(highTlow.value);
-  };
- 
+    let data = JSON.parse(localStorage.getItem("category"));
+    let ndata = data.sort((a, b) => {
+      return b.price - a.price;
+    });
 
+    renderDom(ndata);
+  };
 });

@@ -1,8 +1,28 @@
 body {
     /* width: 95%; */
-    margin-top: 180px;
     /* margin: auto; */
+    margin-top: 180px;
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#homeDiv{
+    margin-top: 150px;
+}
+
+#darkModeToogle {
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+    border-radius: 20px;
+    background-color: #0069FF;
+    color: white;
+    border: 5px solid #0069FF;
+}
+.dark{
+    background-color: rgb(37, 37, 37);
+    color: #e6e6e6;
 }
 
 #collection {
@@ -87,8 +107,8 @@ body {
     text-align: center;
     border-radius: 10px;
     color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .orderButton{

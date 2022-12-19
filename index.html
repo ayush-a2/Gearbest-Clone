@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +11,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./WhatsApp Image 2022-12-17 at 21.13.36.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="./styles/navbar.css">
-    <script
-      src="https://kit.fontawesome.com/b1dda78bf2.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/b1dda78bf2.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+
+    </script>
+    <script src="https://kit.fontawesome.com/b1dda78bf2.js" crossorigin="anonymous"></script>
 
 </head>
 <script src="//code.tidio.co/5pbmavdbt9c8dyuuniya7t0oemcxpqpl.js" async></script>
+
 <body>
+    <!-- Dark mode toggle -->
+    <Button id="darkModeToogle">Dark Mode: <span id="dark_mode_status"></span></Button>
+
+    <!-- navbar -->
     <div id="navbar">
         <!-- import navbar here -->
     </div>
@@ -28,25 +36,29 @@
         <!-- carousal data appended here -->
     </div>
 
-    <h2 class="catergory_heading">COLLECTION</h2>
+    <div id="homeDiv">
+        <h2 class="catergory_heading">COLLECTION</h2>
     <hr>
     <div id="collection"></div>
-    
+
     <h2 class="catergory_heading">SUPER DEALS</h2>
     <hr>
     <div id="superdeals"></div>
-    
+
     <div id="new"></div>
-    
+
     <h2 class="catergory_heading">SMART DEVICES</h2>
     <hr>
     <div id="recommended"></div>
-    
+
     <div id="shop_footer"></div>
 
     <button id="myBtn" title="Go to top">Back to Top</button>
-    
+    </div>
+
 </body>
+
 </html>
 <script type="module" src="./main.js"></script>
 <script src="./scripts/navbar.js"></script>
+<script src="./darkmode.js"></script>
